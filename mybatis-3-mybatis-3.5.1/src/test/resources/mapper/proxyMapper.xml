@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mappers>
+    <mapper>
+        <nameSpace>com.chenzp.proxy.proxyInterface.Cleveland</nameSpace>
+    </mapper>
+    <mapper>
+        <nameSpace>com.chenzp.proxy.proxyInterface.Heat</nameSpace>
+    </mapper>
+    <mapper>
+        <nameSpace>com.chenzp.proxy.proxyInterface.Lakers</nameSpace>
+    </mapper>
+
+</mappers>

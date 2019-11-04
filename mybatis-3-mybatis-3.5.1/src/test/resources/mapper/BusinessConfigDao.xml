@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="chenzpMybatis.dao.BusinessConfigDao">
+    <resultMap id="BaseResultMap" type="chenzpMybatis.entity.BusinessConfigEntity" >
+        <id column="id" property="id" jdbcType="BIGINT" />
+        <result column="business_code" property="businessCode" jdbcType="VARCHAR" />
+        <result column="business_type" property="businessType" jdbcType="INTEGER" />
+        <result column="config_type" property="configType" jdbcType="VARCHAR" />
+        <result column="config_key" property="configKey" jdbcType="VARCHAR" />
+        <result column="config_value" property="configValue" jdbcType="VARCHAR" />
+        <result column="comment" property="comment" jdbcType="VARCHAR" />
+        <result column="modify_user" property="modifyUser" jdbcType="VARCHAR" />
+        <result column="yn" property="yn" jdbcType="INTEGER" />
+        <result column="created_date" property="createdDate" jdbcType="DATE" />
+        <result column="modified_date" property="modifiedDate" jdbcType="TIMESTAMP" />
+    </resultMap>
+    <!--查询列表 -->
+    <sql id="QUERY_COLUMN_LIST">
+        id, business_code, business_type, config_type, config_key, config_value, comment, modify_user, yn, created_date,
+		modified_date
+    </sql>
+
+    <sql id="QUERY_FROM_TABLE" >
+        <![CDATA[ from  business_config ]]>
+    </sql>
+
+    <sql id="QUERY_WHERE_CLAUSE">
+        <where>
+            <if test="id!=null">
+                id=#{id},
+            </if>
+            <if test="businessCode!=null">
+                business_code=#{businessCode}
+            </if>
+            <if test="businessType!=null">
+                AND business_type=#{businessType}
+            </if>
+            <if test="configType!=null">
+                AND config_type=#{configType}
+            </if>
+            <if test="configKey!=null">
+                AND config_key=#{configKey}
+            </if>
+            <if test="configValue!=null">
+                AND config_value=#{configValue}
+            </if>
+            <if test="comment!=null">
+                AND comment=#{comment}
+            </if>
+            <if test="modifyUser!=null">
+                AND modify_user=#{modifyUser}
+            </if>
+            <if test="yn!=null">
+                AND yn=#{yn}
+            </if>
+            <if test="createdDate!=null">
+                AND created_date=#{createdDate}
+            </if>
+            <if test="modifiedDate!=null">
+                AND modified_date=#{modifiedDate}
+            </if>
+        </where>
+    </sql>
+
+    <select id="selectOneEntryByCondition" parameterType="chenzpMybatis.entity.BusinessConfigEntity" resultMap="BaseResultMap">
+        <![CDATA[select ]]>
+        <include refid="QUERY_COLUMN_LIST" />
+        <include refid="QUERY_FROM_TABLE"/>
+        <include refid="QUERY_WHERE_CLAUSE"/>
+    </select>
+
+    <select id="selectEntryListByKeys" parameterType="chenzpMybatis.entity.BusinessConfigEntity" resultMap="BaseResultMap">
+        <![CDATA[select ]]>
+        <include refid="QUERY_COLUMN_LIST" />
+        <include refid="QUERY_FROM_TABLE"/>
+        <include refid="QUERY_WHERE_CLAUSE"/>
+    </select>
+
+   <!-- <select id="selectEntryListByKeys" parameterType="com.ssm.demo.entity.BusinessConfigEntity" resultMap="BaseResultMap">
+        <![CDATA[select ]]>
+        <include refid="QUERY_COLUMN_LIST" />
+        <include refid="QUERY_FROM_TABLE"/>
+        <![CDATA[where  id in ]]>
+        <foreach collection="array" item="id"  open="(" separator="," close=")">
+            <![CDATA[#{id}]]>
+        </foreach>
+    </select>-->
+
+
+    <sql id="INSERT_INTO">
+          INSERT INTO business_config (
+        business_code,
+        business_type,
+        config_type,
+        config_key,
+        config_value,
+        `comment`,
+        modify_user,
+        created_date,
+        modified_date,
+        yn
+        )
+        VALUES
+    </sql>
+
+    <insert id="insertBusinessConfigBatch" >
+      <include refid="INSERT_INTO"/>
+        <foreach item="item" collection="list" separator=",">
+            ( #{item.businessCode},#{item.businessType},#{item.configType},#{item.configKey},#{item.configValue},#{item.comment},#{item.modifyUser},NOW(),NOW(),#{item.yn})
+        </foreach>
+    </insert>
+
+    <insert id="insertBusinessConfig" parameterType="chenzpMybatis.entity.BusinessConfigEntity" useGeneratedKeys="true" keyProperty="id">
+        <include refid="INSERT_INTO"/>
+        (
+        #{businessCode},#{businessType},#{configType},#{configKey},#{configValue},#{comment},#{modifyUser},NOW(),NOW(),<choose> <when
+            test="yn!=null">#{yn} </when> <otherwise>1</otherwise> </choose>);
+    </insert>
+
+</mapper>

@@ -1,0 +1,1024 @@
+====
+       Copyright ${license.git.copyrightYears} the original author or authors.
+
+       Licensed under the Apache License, Version 2.0 (the "License");
+       you may not use this file except in compliance with the License.
+       You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+       Unless required by applicable law or agreed to in writing, software
+       distributed under the License is distributed on an "AS IS" BASIS,
+       WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+       See the License for the specific language governing permissions and
+       limitations under the License.
+====
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< org.mybatis:mybatis >-------------------------
+[INFO] Building mybatis 3.5.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ mybatis ---
+[INFO] Deleting D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\target
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-java) @ mybatis ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.2:prepare-agent (prepare-agent) @ mybatis ---
+[INFO] argLine set to -javaagent:C:\\Users\\chenzhiping\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.2\\org.jacoco.agent-0.8.2-runtime.jar=destfile=D:\\companyProject\\workSpacce\\mybatisChen\\mybatis-3-mybatis-3.5.1\\mybatis-3-mybatis-3.5.1\\target\\jacoco.exec,excludes=org.apache.ibatis.ognl.*:org.apache.ibatis.javassist.*
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ mybatis ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources to META-INF
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ mybatis ---
+[INFO] Compiling 382 source files to D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\target\classes
+[INFO] /D:/companyProject/workSpacce/mybatisChen/mybatis-3-mybatis-3.5.1/mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/reflection/MetaObject.java: ĳЩ�����ļ�ʹ����δ�����򲻰�ȫ�Ĳ�����
+[INFO] /D:/companyProject/workSpacce/mybatisChen/mybatis-3-mybatis-3.5.1/mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/reflection/MetaObject.java: �й���ϸ��Ϣ, ��ʹ�� -Xlint:unchecked ���±��롣
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ mybatis ---
+[INFO] Updating license headers...
+[WARNING] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+[WARNING] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+[1;[31mja1[WARNING] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+[WARNING] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+;v[[[WARNING] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+3;1[aWARNING31j] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+[WARNING] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+a131mjava.[;WARNING] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProviderjm.1a
+.3malang.RuntimeExceptiona[v3jj1lWARNING] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+[WARNING] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+ana1mj[mnvag3vWARNING] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+WARNING] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+java.lang.RuntimeEa.ajava[1;31mjava.lang.RuntimeException1mjava.lang.RuntimeExceptionxception: :.3[a.gR..[1; : unltlmjamva.lanlang.Runtime.RuntimeElang.xceExceptiong.: v[a.lang.RuntimeExcea31mCould not comimeExceptionCould noang.RuntimeExceptiont com: puteCould not compute the year of the ng.ption1;31mCould nCouRuntimeExcep: ptRtold not compute the year of the last git commit for file D:\companyProject\workSpacce\mybatisot compute the year of the last git commit: Rlast git commit for file D:\com the year of the last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\pom.xmlp
+: upanyProjecntimeException31mC for file D:\cChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\java\org\apache\ibatis\annotations\Arg.javanuntimeExceptionion31mCould not compute the year of the last git commi: : : oo:t e3Co1 u
+tlm       \mCould not compute the year of the last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\java\org\apache\ the year of the last uld not compute the yearg of the last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatiibatis\31mCould not compute the year of the last git commit for file D:\orkSptmat com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalProperties[1;31mCould not comput ( panyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\java\org\apache\ibatis\annotations\I[1;31mCod not compute the year of the last git commit for file D:\culdnsert.javaCopyrightRangefor file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\java\org\apache\ibatis\annotations\DeleteProvider.javae the year of the last git commit for file D:\companyPro com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalPropertiesacce\mybatcompanyPannotations\CacheNamespace.javas-3.5.1\mybait commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\java\org\apache\ibatis\annotatiotis-3-mybatis-3.5.1\src\mai
+roje     isjat
+Provider.java:95
+ not compompanyProject\ute the year of     )
+     eC(ct\workSpaccn\java\org\apache\ibatis\anns\Cnoe\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\jaCopyrightRangeProvider.java:9com.mycila.maven.phct\workSpat    attat com.mycila.maven.pluworkSpacce\mybgin.license. com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAddihe last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\java\org\apache\ibatis\annotations\AutomapConstru com.mycila.maven.plugin.license.git.Cacce\mybatisChen\mybatis-3-mybatis-3.5.1\en\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\java\org\lugin.license.git.CopyrightRangeProvider.getAdd5va\org\aptationase.javas\CacheNameache\ibatis\annotations\Delete.java)itionalProapachemybatis-3-mybatis-3.5.1\1.txtopyrightRangector.javationalAbstractLicenseMojo$1.loadatiProperties
+Provid    \ibatis\annotations\ConstructorArgs.javaperties
+    
+spac    eRef.javaat (CopyrightRangeProvider.java:95)at
+    e ( CopyrightRangeProvider.java:95)
+    sChen\myb(AbstractLicenseMojo.atr.getAdditionalProperties com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalProperties
+    
+ c
+at
+ co        o    a ( ( CopyrightRangeProvider.java:95java:360)
+    atis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\java\org\apache\ibatis\annatotations\Flush.javaat)
+    coCopyrightRangeProvider.java:95)
+att com.mycila.maven.plugin.license.AbstractLicenseMojo$1.loadatm.m (aAbm.mycila.maven.plugstractLicenseMojo.java:360)tycila.maven.plugin.license.AbstractLicenseMojo$1.load com.mycila.maven.plugi com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalProperties     (ma  [1[1mCopyrinc.mycila.maven.plugin.license.git.Copyri ( A
+    ibstraccom.mycila.ghtRangeProvider.matom.mycila.maven.plugin.license.document.Document.mergePropertiest.l (
+Document.    ghtRangePcom.mycilrovideratjava:97icense. com.mycila.maven.plugin.license.AbstractLicenseMojo$1.load com.mycilagetAdditionalPropertiesmaven. (tCopyrightRangeProvider.java:95)
+    an.license.git.CopyrightRangeProvider.getAdditionalPropertiesatt comLicenseMojo.javplu.maven.plugin.licen (git.CopyrightRangeProvide) com.mycila.mav.java:95a.maven.p)en.plugin.license.git.Copy
+r.getAdditionalPropertiesAbstractLicenseMojo.java:360se.AbstractLicenseMojo$1.loadgia:360.mycila.maven.plugin.license.AbstractLicenseMojo$1.loa com.mycila.maven.plugin.license.document.Document.mergeProperties (dCopyr () (nAbstractLic) ( CopyrightRangeProvider.java:95rightRangeProvider.getAdditionalProperties
+lugin.license.AbstractLicenseMojo$1.load (     )   
+    e.licens
+    AbstightRangeProvider.java:95 ()
+    ractLicate.git.CoatnseMojo.java:36at
+atCopyrightRangeProvider.j(aAbstractLicenseMojo.java:360)
+     at  0 com.mycila.maven.plugin.license.document.Document.mergePropertiespyrightRangeProvider.g com.mycila.maven.plugin.license.document.Document.mergePropertiesens (aDocument.java:97Document.jav)teMojo.java:360etAdditiona ()
+    c    com.mycila.maven.pluginva:95.license.AbstractLicenseMojo$1.loadatcom.mycila.maven.plugin.license.at com.mycila.maven.plugin.license.document.Document.mergePropertieso Document.java:97lProperties)
+ com.my
+    acila.maven.plugin.license.AbstractLicenseM     )((mDocument.java:97document.Document.mergeProperties c ( ()AbstraDocument.java:97om.mycila.)
+maven.plugin.license.AbstractLicenseMojo$1.load.m (CA
+atojo$1.loadat:97 com.mycila.maven.plugin.license.header.Header.isMatchForText ( com.m    bstractLicenseMojo.java:360opyrightRangeProvider.java:95ycila.maven.plugin.license.header.Header.isMatchForText    )ctLicenseMojo.java:360
+    )atat
+     ()a)[1mHeadeatycila.maven.plugin.license.document.Document.mergePropertiesAbstractLicenseMojo.java:360 ()H
+    )at ( com.mycilar.java:180
+
+t co com.mycila.maven.plugin.license
+.AbstractLicensm.my com.myci la.maven.plugin.license.header.Header.isMatchForText )
+.maven.plugin.liceDocument.java:97 com.mycila.maven.plugin.license.header.Header.isMatchF
+eader.java  orT)
+nse.header.Header.isMatchForText (     at cileMo    ja.maven.plugin.license.head   com.mycila.maven.pl   a(Header.jav    ext  :a (a:180Heatdugin.license.document.Document.hasHeaderater.Header.isMatchForTextato$1.load (  (  com.myci com.mycila.maven.plugin.license.document.Document.mergePropertieser.java:180)
+    )
+    Head180att com.mycila.maven.plugin.license.document.Document.mergeProperties)
+    eatat (la.maAbstractLicenseMojo.java:360(com.mycila.maven.plugin.license.document.Document.mergePropertiesHeader.javDocument.java:85)
+    vatDocument.java:97 com.mycila.maven. com.mycila.maven.plugin.license.document.Document.hasHeaderr.j (at ( cDocument.java:97 com.mDocument.java:85ava:180)
+  plugin.lice)
+     com.mycila.maven.plugin.license.en.plugin.license.Abstrac)
+    aat ( com.mycila.maven.plugin.license.AbstractLicenseMojo$2.run:180)
+    tdocument.Document.atnse.docume  )ycila.maven.plugin.license.document.Document.hasHeader) (om.mycila.maven.plugin.license.header.Heade
+at
+    n t.DocumergePropertiesatLic (DocumenAbstractLicenseMojo.java:398enseMo ( com.mment.hasHeadercom.mycila.mat com.myci    r.isMatchForTextDocument.java:85atla.maven.plugin.license.document.Document.hasHeader com.mycaven.plugin.license.header.Header.isMat (yDocument.java:85)
+    Document.java:97)
+jo$1.lo)
+    tad   (atcila.mavchForTextila.maven.plugin.license.A ( com.mycila.m)
+     aven.plugin.license.header.Header.isMatchForTextDoc (bstractLicenseMojo$2.run ( Header.java:180)
+en.plugin.lAbstractLicenseMojo.ja com.mycila.maven.plugin.lice  aat com.mycila.maven.plugin.license.header.Header.isMatch.java:97Ftnse.AbstractLicenseMojo$2.runva:360icense.doc    (Haumenat( t.j[1mAeader.java:18tument.Document.hasHeader) ( java.utilorText)
+     .AbstractLicenseMojo.java:398
+     ( com.mycila.maven.plugin0)
+    bstractLicenseMojo.java:398)
+    aatHeader.java:180)
+ com.myci    java.util.concurrent.Executors$Runnablva:85at.license.document.Document.hasHeaderDocum (at)
+(concurrent.Exatecutors$RunnableAdapter.callHe     Dent.java:85)
+     at)
+    eAdatla.maven.plugin.license.AbstractLicenseMojo$2.run co (apter.callat com.mycila.maven.plugin.license.AbstractLicenseMojo$2.rucom.mycila.maven.pcom.mycila.maven.plugin.license.document.Document.mergePropertiesocu (at (ader.java:180 com.mycila.maven.plugin.license.header.Header.isMatchForText)
+    E java.utiDocument.java:97ment.java:85)
+    lugin.license.docn co ( (AExecutors.java:511)
+    m.mycila.maven.plugin.license.document.Document.hasHeaderatbstractLicenseMojo.java:398)
+    Aatm.mycila.maven.plugin.license.AbstractLicenseMojo$2.runument.Document.hasHeaderat)
+l.concurrent.Executors$RunnableAdapter.callatxecutors.java:511 ()Header.j a (  com.mycila.maven.plugin.license.AbstractLicenseMojo$2 ( ( java.util.concurrent.Executors$RunnableAdapter.callbstractLicenseMojo.java:398 ja (va.util.concurrent.FutureTask.run)
+     (ExecutoAbstractLicenseMojo.java:398)
+    Document.java:85)
+    .runExecutors.java:511)
+   catva:180
+    )at java.util.concurrent.FutureTask.run com.mycila.maven.plugin.license.header.Header.isMatchForTextom.mycila.maven.plugin.license.document.Document.hasHeader   (atatrs.java:511)
+    at (Document.java:85)FutureTask.java:266)
+     jaat java.util.concurrent.Executors$RunnableAdapter.call  (AbstractLicenseM   at ( (
+FutureTask.java:266)
+    Hat java.util.concurrent.Executors$RunnableAdapter.call java.util.concurrent.FutureTask.run(ojo.java:398)
+    Executors.java:511)
+    com.mycila.m java.util.concurrent.FvutureTask.at
+     java.util.runa.util.concurrent.Executoaven.plugin.license.Absat java.util.concurrent.FutureTaskat java.util.concurrent.Executors$RunnableAdapter.call (FutureTask.java:266)
+    atDocume (eader.java:180)    
+atExecutors.java:511)
+    na java.util.concurrent.Executors$RunnableAdapter.call (.r (tractLicenseMojo$2.runr (FutureTask.java:266)
+concurrent.Executors$RunnableAdapter.callat (     (s$RunnableAdapter.callEx (ExunExe (tt.java:85)
+     at  com.mycila.maven.plugin.license.AbstractLicenseMojo$2.run   at com.mycom.mycila.maven.plugin.license.document.Document.hasHeader java.util.concurrent.FutureTask.runFutureTask.java:266)
+    cutors.java:511)
+    ecutors.java:511)ecutAbstractLicenseMojo.java:398)
+atExecutors.java:511)
+     com.mycila.maven.plugin.lat java.util.concurrent.FutureTask.run j (    ors.java:511)
+    aatat ( (cila.maven.plugin.license.document.Document.hasHeader (Document.java:85)
+    Fat java.util.co java.util.concurret
+    atFutureTask.java:266)
+    ava.util.concurrent.Executors$RunnableAdapter.callicense.AbstractLicenseMojo$2.runat java.util.concurrent.Executors$RunnableAdapter.callat ( javnt.FutureTask.runncu coutureT (AbstractLicenseMojo.java:398)
+Document.java:85)
+    askatm.mycila.maven.plugin.license.AbstractLicenseMojo$ (rrent.Executors$RunnableAdapter.calla.uti (Executors.java:511) jav jav ( (AbstractLicenseMojo.java:398)
+    a.a.util.concurrent.FutureTask.run
+  (Executors.java:511)
+    l.concurrent.FutureTask.runFutureTask.java:2662.run c (.java:266)
+        atAbstractLicenseMojo.java:398)
+    o)
+     (atFutureTask.java:266)
+     uatatExecutors.java:511)
+     java.util.concurrent.E java.util.concurrent.FutureTask.runtil.concurrent.ThreadPoolExecutor.runWorker   java.util.concurrent.FutureTask.runFutureTask.java:266)
+atatm.mycila.maven.plugin.license.AbstractLicenseMojo$2.runat (AbstractLicenseMojo.java:398)
+     java.util.concurrent.ThreadPoolExecutor.runWorkerat ( java.util.concurrent.Executors$RunnableAdapter.call   java.util.concurrent.Executors$RunnableAd apter.call (at ( (xecutors$RunnableAdapter.callatFutureTask.java:266)
+    ThreadPoolExecutor.java:1149)
+     java.util.concurrent.ThreadPoolExecutor.runWorker (FutureTask.java:266)
+     at java.util.concurrent.ThreadPoolExecutor.runWorker(E (java.util.concurrent.Executors$RunnableAdapter.callThreadPoolExecutor.java:1149) java.ut
+     (Executors.javThreadPoolExecutor.java:1xecutors.java:511)
+       E(at java.util.concurrent.ThreadPoolExecutor$Worker.runat java.util.concurrent.Executors$RunnableAdapter.call ( java.util.concurrent.FutureExecutors.java:511)
+     ( (TThreadPoolExecutor.java:624)
+    xecutors.java:511)
+    atat149)
+    a:511)
+    atil.concurrent.Executors$RunnableAdapter.call java.util.concurrent.ThreadPoolExecutor$Worker.runatat java.util.concurrent.FutureTask.run ja (atathreadPoolExecutor.java:1149)
+    Executors.java:511)
+    atTask.run java.util.concurrent.FutureTask.runatat java.lang.Thread.run java (Thread.java:748)
+FuCaused by: java.lang.IllegalArgumentException: va.u java.util.concurrent.ThreadPoolExecutor$Worker.run ( java.util.concurrent.FutureTask.run ( ( (ThreadPoolExecutor.java:624)
+    One of setGitDir or setWorkTree must be called.
+til.tureTask.java:266)
+    .uti java.util.concurrent.ThreadPoolExecutor$Worker.run (  java.util.concurrent.FutureTask.runFutureTask.java:266)
+     (ThreadPoolExecutor.java:624)
+    atl.concurrent.FutureTask.run    concurrent.Executors$RunnableAdapter.catThreadPoolEFutureTask.jaExecutors.java:511)
+    va:266)xecutor.java: java.lang.Thread.runal (Thread.java:748)at org.eclipse.jgit.lib.BaseRepositoryBuilder.requireGitDirOrWorkTree ( java.util.concurrent.Executors$RunnableAdapter.callat (at ((FutureTask.java:266)
+    FutureTask.java:266)
+     java.util.concurrent.Executors$RunnableAdapter.callExecutors.java:511)
+     java.lang.T (BaseRepositoryBuilder.java:586)
+    FutureTask.java:266)
+    
+lCause (Executors.java:511)
+    624)
+    
+    atat java.util.concurrent.Executors$RunnableAdapteatatd by: java.lang.IllegalArgumentException: atat org.eclipse.jgit.lib.BaseRepositoryBuilder.setuphread.runat (Executors.java:511)atat java.util.concurrent.ThreadPoolExecutor.runWorker
+ (ThreadPoolExecutor.java:1149)
+     java.util.concurrent.FutureTask.run ( ( java.util.concurrent.ThreadPoolExecutor.runWorkerOne of setGitDir or setWorkTree must be called.
+ java.u     java.lang.Thread.runr. ( javaThread.java:748)
+callattil.concurrent.FutureTask.run (ThreadPoolExecutor.java:1149BaseRepositoryBuilder.java:554)
+    Thread.java:748)
+ (at     java.util.concurrent.ThreadPoolExecutor.runWorkerat java.util.conc java.util.concurrent.ThreadPoolExecutor$Worker.runFutureTask.java:266)Caused by: java.lang.IllegalArgumentException: at)
+     ( org.eclipse.jgit.lib.BaseRepositoryBuilder.requireGitD (Caused by: java.lang.IllegalArgumentException: .util.concurrent.FutureTask.rOne of setGitDir or setWorkTree must be called.
+Exec    irOrWorkTreeF (at java.util.concurrent.ThreadPoolExecutor$Worker.run o (One of setG
+     (ThreadPoolExecutor.java:6urre (ThreadPoolExecutor.java:1149)
+    nt.FutureTask.run24atitDir or setWorkTree must be called.
+Thre    rg.eclipse.jgit.storage.file.FileReBaseRepositoryBuildeutureTask.java:266)
+    atutors.java:511un) (FutureTask.java:266)
+     org.eclipse.jgit.lib.BaseRepositoryBuilder.requireGitDirOrWorkTreeatr.java:586)
+    positoryBuilder.buildat (adPoolExecutor.java:624 java.util.concurrent.ThreadPoolExecutor.runWorker)
+     (atFutureTask.java:2at ()
+    FileRepositoryBuilder.java:92)
+     org.eclipse.jgit.lib.BaseRepositoryBuilder.requati java.util.concurrent.ThreadPoolExecutor.runWorker (at
+     java.util.concurrent.Executors$RunnableAdapter.call ( (BaseRepositoryBuilder.java:586)reGitDirOrWorkTree or (atatThreadPoolExecutor.java:1149) java.lang.Thread.run66 java.util.concurrent.ThreadPoolExecutor$Worker.run) ( (
+     java.lang.Thread.run  (BaseRepositoryBuilder.java:586)
+    g.eclipse.jgit.lib.BaseRepositoryBuilder.setup
+Ex (Threata java.util.concurrent.FutureTask.runBaseRepositoryBuilder.java:554)    ecutors.java:511)atThread.java:748)
+com.mycila.maven.plugin.license.git.GitLookup.<init>at (Thread.java:748)
+ThreadPoolExecutor.java:624)
+    
+    atCaused by: java.lang.IllegalArgumentException: GOne of setGitDir or setWorkTree must be called.
+ java.util.concurrent.ThreadPoolExecutor$Worker.runCaused by: java.lang.IllegalArgumentException:  org.eclipse.jgit.lib.BaseRepositoryBuilder.setup
+ (BaseRepositoryBuilder.java:554)
+    at
+     (dPoolExecutor.java:1149)
+    FutureTask.java:266)
+    at org.eclipse.jgit.lib.BaseRepositoryBuilder.setupat (BaseRepositoryBuilder.java:554)
+    at org.eclipse.jgit.storage.file.FileRepositoryBuilder.build    One of setGitDir or setWorkTree must be called.
+ (Thr        itLookup.java:75) java.lang.Thread.runat java.util.concurrent.ThreadPoolExecutor.runWorker
+    atateadPoolExecutor.java:624)
+    at ( org.eclipse.jgit.storage.file.FileRepositoryBuilder.build org.eclipse.jgit.storage.file.FileRepositoryBuilder.buildat (FileRepositoryBuilder.java:92)
+    atat java.util.concurrent.ThreadPoolExecutor.runWorker ( (FileRepositoryBuilder.java:92)
+     java.util.concurrent.FutureTask.runat org.eclipse.jgit.lib.BaseRepositoryBuilder.requireGitDirOrWorkTree org.eclipse.jgit.lib.BaseRepositoryBuilder.requireGitDirOrWorkTreea ( ( (ThreadPoolExecutor.java:1149)BaseRepositoryBuilder.java:586)
+    t ( java.lang.Thread.run ( (atThreadPoolExecutor.java:1149)FileRepositoryBuilder.java:92)
+     com.mycila.maven.plugin.license.git.GitLookup.<init> java.util.concurrent.ThreadPoolEat
+     com.mycila.maven.plugin.license.git.GitLookup.<init>Thread.java:748)
+FutureTask.java:266)
+    BaseRepositoryBuilder.java:586)
+     com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getGitLookupat
+Thread.java:748)
+     org.eclipse.jgit.lib.BaseRepositoryBuilder.setup (atatCaused by: java.lang.IllegalArgumentException:  (at com.mycila.maven.plugin.license.git.GitLookup.<init>xecutor$Worker.run (GitLookup.java:75)
+     ( java.util.concurrent.ThreadPoolExecutor$Worker.runGitLookup.java:75)
+    One of setGitDir or setWorkTree must be called. java.util.concurrent.ThreadPoolExecutor.runWorker org.eclipse.jgit.lib.BaseRepositoryBuilder.setupCopyrightRangeProvider.java:138)
+     (BaseRepositoryBuilder.java:554)
+    atCaus java.util.concurrent.ThreadPoolExecutor$Worker.runat (ThreadPoolExecutor.java:624)
+    at com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalProperties ( (ThreadPoolExecutor.java:1149)
+at com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getGitLookup (GitLookup.java:75)
+    at (ThreadPoolExecutor.java:624)
+     com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getGitLookupatThreadPoolExecutor.java:624)
+     (CopyrightRangeProvider.    
+ BaseRepositoryBuilder.java:554 (at ored by: g java.lCopyright)
+       at org.eclipse.jgit.lib.java:138)at com.mycila.maven.plugin.license.git.Copyr (aCopyrightRangeProvider.java:138)
+    ightRangeP java.lang.Thread.run
+ (BaseRatatRangeProvider.java:84)
+    ang.Thread.run.eclipse.jgit.storage.file.FileRepositoryBuilder.buildjava.lang.IllegalArgumentException:  One of setGitDir or setWorkTree must be called.
+at org     java.util.concurrent.ThreadPoolExecutor$Worker.runepositoryBuiThrea  rovider.getGitLookupatt ( com.my  d.java:748)
+lder.requireGitDirOrWorkTree (at.eclipse.jgit.storage.file.FileRepositoryBuilder.build  ((Thread.java:748)
+ (FileRCaused by:FileRepositoryBuilder.java:9com.mycila.maven.plugin.license.AbstractLicenseMojo$1.load o (ThreadPoolExecutor.java:624) Caused byatcCopyr jightRangeProvider.java:1ila.maven.plugin.license.git.CopyrightRangeProvi com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAddit: java.lang.Ille(BaseReposi
+AbstractLicenseMojo.java:360)
+rg.eclipse.jgit.lib.BaseRepositoryBuilder.requireGitDirOrWorkTree2)
+ java.lang.IllegalArgumentExceptionepositoryBuilder.java:92)
+    :  One of setGitDir or setWorkTree must be called.
+ (BaseRepositoryBuild        tgalArgumentException: ionalPropertiesder.getAdditionalProperties38) (ava.lang.Thread.runCopyrightRangeProvider.java:84)
+
+     (One of setGitDir or setWorkTree must be called.oryBuilder.java:586)atater.java:586)
+           at com.mycila.maven.plugin.license.git.GitLookup.<init>atatat or c java.lang.
+    
+CopyrightRangeProv at   (Thread.java:748)
+ Caused by: java.lang.IllegalArgumentException:  com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalProperties   ider.java:84)
+    atThread.runom.m (g.eclipse.jgit.lib.BaseRepo org.eclipse.jgit.lib.BaseRepositoryBuilder.requireGitDirOrWorkTree ( com.mycila.maven.plugin.license.git.GitLookup.<init> ( (GitLookup.java:75)
+    sitoryBuilder.setupT (BaseRepositoryBuilder.java:554)
+    ycila.maven.plugin.license.document.Document.mergeProperties o atat org.eclipse.jgit.lib.BaseRepositoryBuilder.requireGitDirOrWorkTree (Cop (BaseOne of setGitDir or setWorkTree must be called.
+ RepositoryBuilder.java:586)
+    yrightRangeProvider.java:84)
+     com.mycila.maven.plug(Document.java:97)
+    rg.eclipse.jgit.lib.BaseRepositoryBuilder.setupath (BaseRepositoryBuilder.java:554atGitLookup.java:75)
+    BaseRepositoryBuilder.java:586)
+    at com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getGitLookup) o (read.java:748)
+atin.license.AbstractLicenseMojo$1.loadat  com.mycila.maven.plugin.license.AbstractLicenseMojo$1.loadat    atat org.eclipse.jgit.lib.BaseRepositoryBuilder.setup (AbstractLicenseMojo.java:360)(AbstractLicenseMojo.java:360)
+     com.mycila.maven.plugin.license.header.Header.isMatchForTextCause (CopyrightRangeProvider.java:138)
+    rg.eclipse.jgit.storage.file.FileRepositoryBuilder.build
+     com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getGitLookupat (at (atHeader.java:180d by: java.lang.IllegalArgumentExceptionat
+     (BaseRepositoryBuilder.java:554 org.eclipse.jgit.lib.BaseRepositoryBuil com.mycila.maven.plugin.license.AbstractLicenseMojo$1.loadde (AbstractLicenseMojo.java:360)
+    )
+    at com.mycila.maven.plugin.license.document.Document.mergeProperties:  (One of setGitDir or setWorkTree must be called.
+)
+     com.myci    FileRepositoryBuilder.java:92)
+     org.eclipse.jgit.storage.file.FileRepositoryBuilder.buildCopyrightRangeProvider.java:138)
+     org.eclipse.jgit.lib.BaseRepositoryBuilder.setupat ( (atatla.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalPropertiesat (Document.java:97)
+     com.mycila.maven.plugin.license.document.Document.mergePropertiesat org.eclipse.jgit.storage.file.FileRepositoryBuilder.buildatr.requireGitDirOrWorkTree com.mycila.maven.plugin.license.document.Document.mergeProperties ( (atCopyrightRangeProvider.java:84) com.mycila.maven.plugin.license.document.Document.hasHeader org.eclipse.jgit.lib.BaseRepositoryBuilder.requireGitDirOrWorkTree com.mycila.maven.plugin.license.git.GitLookup.<init>FileRepositoryBuilder.java:92)
+    BaseRepositoryBuilder.java:554)
+     com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalPropertiesatat (GitLookup.java:7 ( (Document.java:85)
+    
+     com.mycila.maven.plugin.license.header.Header.isMatchFoDocument.java:97)
+    FileRepositoryBuilder.java:92)
+     ( (Document.java:97)
+    atatrTextat (Header.java:180at com.mycila.maven.plugin.license.AbstractLicenseMojo$2.runBaseRepositoryBuilder.java:586)5)
+     com.mycila.maven.plugin.license.git.GitLookup.<init> org.eclipse.jgit.storage.file.FileRepositoryBuilder.build ( (GitLookup.java:75)
+at
+ ()
+ com.mycila.maven.plugin.license.AbstractLicenseMojo$1.load  ( com.mycila.maven.plugin.license.git.GitLookup.<init>at com.mycila.maven.plugin.license.header.Header.isMatchForTextBaseRepositoryBuilder.java:586)
+     (GitLookup.java:75)
+    AbstractLicenseMojo.java:360)
+    com.mycila.maven.plugin.license.header.Header.isMatchForText   (AbstractLicenseMojo.java:398)
+         com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getGitLookup    CopyrightRangeProvider.java:84)
+     (atat (atat java.util.concurrent.Executors$RunnableAdapter.callHeader.java:180)
+      atatat ( org.eclipse.jgit.lib.BaseRepositoryBuilder.setup c ( com.mycila.maven.plugin.license.document.Document.mergePropertiesatat ( org.eclipse.jgit.lib.BaseRepositoryBuilder.setupCopyrightRangeProv com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getGitLookup com.mycila.maven.plugin.license.AbstractLicenseMojo$1.loadFileRepositoryBuilder.java:92)
+     (CopyrightRangeProvider.java:138)ider.java:138)
+     (Executors.java:511)
+     com.mycila.maven.plugin.license.document.Document.hasHeader com.mycila.maven.plugin.license.document.Document.hasHeader (B (om.mycila.maven.plugin.license.git.CopyrightRangeProvider.getGitLookupH (CopyrightRangeProvider.java:138Document.java:85)
+    aseRepositoryBuilder.java:554)
+    Document.java:97)
+     (atBaseRepositoryBuilder.java:554)
+    at
+at ( com.mycila.maven.plugin.license.git.GitLookup.<init>   (GitLookup.java:75)
+     com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalPropertiesat ( java.util.concurrent.FutureTask.runD (at com.mycila.maven.plugin.license.header.Header.isMatchForTextatat)eader.java:180
+     com.mycila.maven.plugin.license.AbstractLicenseMojo$2.run o ( (FutureTask.java:266)oc
+    CopyrightRangeProvider.java:84)
+     org.eclipse.jgit.storage.file.FileRepositoryBuilder.buildat  AbstractLicenseMojo.java:360at com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getGitLookup (atatument.java:85)
+    Header.java:180)
+    AbstractLicenseMojo.java:398)
+rg.eclipse.jgit.storage.file.FileRepositoryBuilder.buildat)
+ ( com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalProperties    ata ( java.util.concurrent.Executors$RunnableAdapter.call com.my (Executors.java:511)
+    FileRepositoryBuilder.java:92)
+     ( com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalProperties)
+    CopyrightRangeProvider.java:138)
+    atat java.util.concurrent.FutureTask.runcila.maven.plugin.license.AbstractLicenseMojo$1.loadC (AbstractLicenseMojo.java:360)
+    t com.mycila.maven.plugin.license.AbstractLicenseMojo$2.run com.mycila.maven.plugin.license.document.Document.hasHeaderat (FileRepositoryBuilder.java:92    )
+    Document.java:85)
+     java.util.concurrent.Executors$RunnableAdapter.call ( (Executors.java:511)
+    atopyrightRange ( com.mycila.maven.plugin.license.git.GitLookup.<init>at com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalPropertiesat ( ( com.mycila.maven.plugin.license.document.Document.mergeProperties ( (FutureTask.java:266Provi com.mycila.maven.plugin.license.document.Document.mergePropeatAbstractLicenseMojo.java:398)
+    atatat com.mycila.m com.mycila.maven.plugin.license.AbstractLicenseMojo$2.runat java.util.concurrent.FutureTask.runrtiesder.jav ()
+    Document.java:97)
+    GitLookup.jCopyrightRangeProvider.java:84)
+    CopyrightRangeProvider.java:84)
+    atava:75atatDocument.java:97)
+    a:84 (FutureTask.java:266)
+     (AbstractLicenseMojo.java:398 java.util.concurrent.Executors$RunnableAdapter.callaven.plugin. ( com.mycila.maven.plugin.license.document.Document.hasHeaderExecutors.java:511)
+    license.git.GitLookup.<init>) (GitLookup.java:75)
+    at)
+    aat com.mycila.maven.plugin.license.Abstract java.util.concurrent.ThreadPoolExecutor.runWorker com.mycila.maven.plugin.license.header.Header.isMatchForText) (Header.java:180)
+    at com.mycila.maven.plugin.license.document.Document.hasHeader com.mycila.maven.plugin.license.AbstractLicenseMojo$1.loadat (
+     (LicenseMojo$1.loadt java.util.concurrent.Executors$RunnableAdapter.calla (Executors.java:511)
+    at
+    at ( java.util.concurrent.FutureTask.runa (FutureTask.java:266)
+    at java.util.concurrent.Executors$RunnableAdapter.call (Executors.java:511) java.util.concurrent.FutureTask.runt com.mycila.maven.plugin.l (ThreadPoolExecutor.java:1149)
+    atDocument.java:85)
+     com.mycila.maven.plugin.license.AbstractLicenseMojo$1.load  (AbstractLicenseMojo.java:360)
+    at com.mycila.maat com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getGitLookupatAbstractLicenseMojo.java:360icense.header.Header.isMatchForText  (Header.java:180)
+     c
+    t java.util.concurrent.Executors$RunnableAdapter.callD (atom.mycila.maven.plugin.license.git.CopyrightRangeProvider.getGitLookupat()
+     java.util.concurrent.ThreadPoolExecutor$Worker.run  (ThreadPoolExecutor.java:624)
+     com.mycila.maven.plugin.license.AbstractLicenseMojo$2.runv (AbstractLicenseMojo.java:398)
+    (AbstractLicenseMojo.java:360)
+aten.plugin.license.document.Document.mergePropertiesa ((atFutureTask.java:266)
+     com.mycila.maven.plugin.license.document.Document.hasHeader  (Document.java:85)
+    at com.mycila.maven.plugin.license.AbstractLicenseMojo$2.run java.util.concurrent.FutureTask.runEx (ocument.java:85)
+    FutureTask.java:266ecutors.java:511)
+     ((CopyrightRangeProvider.java:138)
+    atat com.mycila.maven.plugin.license.document.Document.mergePropertiesC (Document.java:97)
+    t java.lang.Thread.run java.util.concurrent.Executors$RunnableA    dapter.call (Thread.java:748)
+atDocument.java:97)opyrightRangeProvider.java:138)
+     java.util.concurrent.ThreadPoolExecutor.runWorker  (AbstractLicenseMojo.java:398)
+    at)
+    atat java.util.concurrent.FutureTask.runat (ThreadPoolExecutorcom.mycilaat
+     com.mycila.maven.plugin.license.header.Header.isMatchForText (aExecutors.java:511)
+    t com.mycila.maven.p (at com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalProperties.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalProperties.java:1149)
+FutureTask.java:266 java.util.concurrent.Executors$RunnableAdapter.call  (java.util.concurrent.ThreadPoolExecutor.ru com.mycila.maven.plugin.license.AbstractLicenseMojo$2.runnWorkerExecut)   (CopyrightRangeProvider.java:84)
+     (CopyrightRangeProvider.java:84)
+     com.mycila.maven.Header.java:180)
+lugin.license.documatent.Document.mergeProperties ( plugin.license.header.Header.isatat  
+    ors.java:511)
+     ( (ThreadPoolExecutor.java:[aaa  M D WARNING] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+Aj atttava.util.concurrent.FutureTask.runjava.lang.RuntimeExceptionocument.java:97)
+    bstractLicenseMojo.java:398)
+    at:  Could not compute the year of the last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\myba java.util.concurrent.FutureTask.run11 java.util.concurrent.ThreadPoolExecutor$Worker.runtchForTextcom.mycila.maven.plugin.license.AbstractLicenseMojo$1.loadc (AbstractLicenseMojo.java:360)
+     atom.mycila.maven.plugin.license.AbstractLicenseMojo$1.load ( (ThreadPoolExecutor.java:624)
+     java.util.concurrent.Executors$RunnableAdapter.call49) (FutureTask.java:266)
+tis-3-mybatis-3.5.1\src\main\java\org\apa(FutureTask.java:266 com.mycila.maven.plugin.license.header.Header.isMatchForTexta )
+    che\ibatis\annotations\Inser    
+ (atHeader.java:180)
+     ( com.mycila.maven.plugin.license.document.Document.mergePropertiesat com.mycila.maven.plugin.license.document.Document.hasHeaderA (at java.lang.Thread.runExecutors.java:511)
+        at java.util.concurrent.Executors$RunnableAdapter.callt (Executors.java:511)
+    at(Header.java:180)
+    tat java.util.concurrent.Executors$RunnableAdapter.callatProvider.javaatat ( com.mycila.maven.plugin.license.document.Document.hasHeaderD (Document.java:85)
+    at com.mycila.maven.plugin.license.AbstractLicenseMojo$2.runbstractLicenseMojo.java:360) (
+     (ocument.java:85)Thread.java:748)
+ java.util.concurrent.FutureTask.run j (
+ java.util.co     (Executors.java:511)
+     com.mycila.maven.plugin.license.document.Document.hasHeader  (Document.java:85)
+    atatncurrent.FutureTask.runF (ava.util.concurrent.ThreadPoolExecutor$Worker.run
+    AbstractLicenseMojo.java:398)
+    atDocument.java:97)
+     com.mycila.maven.plugin.license.document.Document.mergePropertiesat java.util.concurrent.Executors$RunnableAdapter.calla ( (FutureTask.java:266)
+    utureTask.java:266)
+     com.mycila.maven.plugin.license.gi aj[WARNING] failure occured while calaaTEt aling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+t[1;3(Do com.mycila com.mycila.maven.plhreadPoolExecutor.java:624)
+xecutors.java:511)
+    cument.java:97)
+    at    ugin.license.header.Header.isMatchForText.mav (1mjava.lang.RuntimeExceptiont.CopyrightRangeProvider.getAdditionalPropertiesjava.util.concurrent.FutureTask.runt (ava.util.concurrent.Executors$RunnableAdapter.calltt java.util.concurrent.ThreadPoolExecutor.runWorker ( java.util.concurrent.ThreadPoolExecutor.runWorkerFu ( com.mycila.maven.plugin.license.AbstractLicenseMojo$2.run  (AbstractLicenseMojo.java:398)
+: HCould not compute the year of the last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\java\org\apache\ibatis\annotations\Lang.javaen.plugin.license.AbstractLicenseMojo$2.runat  (atAbstractLicenseMojo.java:398)
+    java.util.concurrent.FutureTask.run ja (
+eader.java:180)
+        (CopyrightRangeProvider.java:95)
+ThreadPoolExecutor.java:1149)
+    tureTask.java:266)
+    Executors.java:511)
+ (    atat    atat    FutureTask.java:266)
+    va.lang.Thread.runat com.mycila.maven.plugin.license.header.Header.isMatchForText ( java.util.concatat com.mycila. java.util.concurrent.Executors$RunnableAdapa java.util.concurrent.Threa java.util.concurrent.ThreadPoolExecutor.runWorkera (ThreadPoolExecutor.java:1149)ThreadPoolExecutor.java:1149)
+    tdPoolExecutor$Worker.runt (ter.callmaven.plugin.l com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalProperties java.util.concurrent.Executors$RunnableAdapter.callu (Thread.java:748)
+ (Header.java:180)
+    at com.mycila.maven.plugin.license.document.Document.hasHeaderExecutors.java:511)
+    rrent.Executors$RunnableAdapter.call  (icense.document.Document.hasHeader (ThreadPoolExecutor.java:624)
+     com.mycila.maven a[aE E(a WARNING] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+(tCoxecu.plugin.license.AbstractLicenseMojo$1.loadDocument.java:85)java.lang.RuntimeException
+     (tors.java:511)
+    java.util.concurrent.FutureTask.runt (FutureTask.java:266)
+    at
+    t java.lang.Thread.runp ( java.util.concurrent.FutureTask.run(Document.java:85)
+    xecutors.java:511)
+    at (Thread.java:748)
+yrightRangeProvider.java:95)
+    atat j java.util.concurrent.ThreadPoolExecutor$Worker.runatAbstractLicenseMojo.java:360)
+    at:  Could not compute the year of the last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\srat java.util.concurrent.FutureTask.run ( (ava.util.concurrent.Executors$RunnableAdapter.call java.util.concurrent.ThreadPoolExecutor$Worker.run com.mycila.maven.plugin.license.AbstractLicenseMojo$1.loadFutureTask.java:266)
+     com.mycila.maven.plugin.license.AbstractLicenseMojo$2.runa (at ( [ FT ccWARNIA AtNG] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+jbsom.m( java.util.concurrent.FutureTask.runExecutors.java:511)
+    (ThreadPoolExecutor.java:624)
+    ycila.maven.plugin.license.AbstractLicenseMojo$2.runuthreadPoolExecutor.java:624)
+    com.mycila.maven.plugin.license.document.Document.mergeProperties\ (Document.java:97)
+    tractLicenseMojo.java:398)
+    bstractLicenseMojo.java:360)
+    java.utava.lang.RuntimeExceptionil.concurrent.ThreadPoolExecutor.runWorkera (ThreadPoolExecutor.java:1149)
+    atatatmain\java\org\apache\ibatis\annotations\Many.java
+atureTask.java:266 (atat ( java.util.concurrent.FutureTask.run java.lang.Thread.runAbstractLicenseMojo.java:398)
+         java.lang.Thread.run com.mycila.maven.plugin.license.header.Header.isMatchForText  (Header.java:180)
+     java.util.concurrent.ThreadPoolExecutor$Worker.runt : ( a[1;31[1mcom.mycila.maven.plugin.license.document.Document.mergePropertiejava.util.concurrent.Executors$RunnableAdapter.call  (atat)
+     (Thread.java:748)
+ (FutureTask.java:266)
+    FutureTask.java:266)
+    at java.util.concurrent.Exe com.mycilExecutors.java:511)
+    (Thread.java:748)
+sThreadPoolExecutor.java:624)
+    at java.lang.Thread.runmCould not compute the year of thet last git commit for file D:\companyProje[  aac aaWARNING] failure occured while calling c lass com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+cotmjava.(Document.java:97java.lang.RuntimeException: )Could not compute the year of th[c(ut.u.t WARNING] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+
+jjmy Thread.java:748)
+ava.lang.RuntimeException    : e last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5jttcmt a[CaWARNING] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+tvjavi\.1\mybatis-3-mybatis-3.5.1\src\main\java\org\apache\ibatis\annotations\Mapper.java
+oul    java.lang.RuntimeExceptionatd not compute the year of the last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\java\org\apache\ibatis\annotations\One.javaworkSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\java\org\apache\ibatis\annotations\MapKey.java
+ava.util.concurrent.FutureTask.runl.con (a.util.concurrent.ThreadPoolExecutor.runWorkerilaaven.plugin.license.git.CopyrightRangeProvider.getAdditionalPropertiesors$Rua.util.concurrent.Executors$RunnableAdapter.call  (com.mycila.maven.plugin.license.header.Header.isMatchForTextnnableAdapter.call (. (Executors.java:511)
+ (Fcurrent.Executors$RunnableAdapter.call    
+ com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalProperties:  [1;3(     (atutureTask.java:266)ThreadPoolExecutor.java:1149)
+        maven.plugin.license.document.Document.hasHeaderCopyrightRangeProvider.java:95)
+     (Header.java:180)
+    at com.mycila.maven.plugin.license.document.DExecutors.java:511)
+    ocument.hasHeaderat com.mycila.maven.plugin.license.AbstractLicenseMojo$1.load (Document.java:85)
+    atat
+     com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalPropertiesExecutors.java:511)
+    at com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalProperties1mCould not compute the year of the last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\java\org\apache\ibatis\annotations\Options.java
+CopyrightRangePro at (aCopy java.util.concurrent java.util.concurrent.FutureTask.runat ( ( (at java.util.concurrent.FutureTask.runF (FutureTask.java:266Document.java:85A)
+     coat com.mycila.maven.plugin.license.AbstractLicenseMojo$2.run.ThreadPoolExecutor$Worker.runrightRangeProvider.java:95)
+    t java.util.concurrent.Executors$RunnableAdapter.call java.util.concurrent.FutureTask.run(CopyrightRangeProvider.java:95)
+    vider.java:95    )
+    at (FutureTask.java:266)
+     (Executors.java:511at ( (m.mycila.maven.plugin.license.AbstractLicenseMojo$2.runbstractLicenseMojo.java:360)
+    )
+    utureTask.java:266atat (AbstractLicenseMojo.java:398ThreadPoolExecutor.java:624)
+     com.mycila.maven.plugin.license.AbstractLicenseMojo$1.load) (at com.mycila.maven.plugin.license.AbstractLicenseMojo$1.loadat com.mycila.maven.pluginat com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalProperties.license.AbstractLicenseMojo$1.load ( java.util.concurrent.Executors$RunnableAdapter.callAbstractLicenseMojo.java:360)
+    
+    at)
+    AbstractLicenseMojo.java:398)
+ com.mycila.maven.plugin.license.document.Document.mergeProperties java.util.concurrent.ThreadPoolExecutor.runWorker) ( (    at java.lang.Thread.runatat (AbstractLicenseMojo.java:360)
+     ( (AbstractLicenseMojo.java:360)
+    atExecutors.java:511)
+     com.mycila.maven.plugin.license.document.Document.mergeProperties java.util.concurrent.FutureTask.run  ( java.util.concurrent.Executors$RunnableAdapter.callat (Document.java:97)
+    ThreadPoolExecutor.java:1149)
+    
+    atatExecutors.java:511)
+     java.util.concurrent.Executors$RunnableAdapter.callFutureTask.java:266)
+    (Thread.java:748) (Document.java:97)
+    at java.util.concurrent.FutureT com.mycila.maven.plugin.license.document.Document.mergePropertiesa (CopyrightRangeProvider.java:95)
+    Document.java:97)
+    task.runat com.mycila.maven.plugin.license.header.Header.isMatchForText
+at (at com.mycila.maven.plugin.license.header.Header.isMatchForText  (Header.java:180)
+    at com.mycila.maven.plugin.license.document.Document.hasHeaderat (java.util.concurrent.Thread java.util.concurrent.FutureTask.runExecutors.java:511)
+     java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1149)
+    at (Header.java:180)
+     (FutureTask.java:266)
+     com.mycila.maven.plugin.license.document.Document.mergePropertiesatat com.mycila.maven.plugin.license.header.Header.isMatchForText ( (atat java.util.concurrent.ThreadPoolEa PD [  HD WARNING] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+cocumjavtocument.java:85)
+    java.util.concurrent.ThreadPoolExecutor.runWorkerent.java:97)
+    com.mycila.maven.plugin.license.document.Document.hasHeaderj (eader.java:180)
+    om.mycila.maven.plugin.license.AbstractLicenseMojo$1.loada (Document.java:85)
+    ava.util.concurrent.ThreadPoolExecutor.runWorkera (ThreadPoolExecutor.java:1149)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (at com.mycila.maven.plugin.license.AbstractLicenseMojo$2.run  (xecutor$Worker.runa (ThreadPoolExecutor.java:624)
+    (FutureTask.java:266)
+    oolExecutor$Worker.runa (ThreadPoolExecutor.java:624)
+    at java.lang.Thread.runat.lang.RuntimeExceptionAbstractLicenseMojo.java:398)
+    java.util.concurrent.FutureTask.runT ( (ThreadPoolExecutor.java:624)
+    t com.mycila.maven.plugin.license.header.Header.isMatchForTexta (Header.java:180)
+    atAbstractLicenseMojo.java:360)
+t com.mycila.maven.plugin.license.document.Document.hasHeader  (Document.java:85)
+     com.mycila.maven.plugin.license.document.Document.hasHeadert  com.mycila.maven.plugin.license.AbstractLicenseMojo$2.runa (FutureTask.java:266)
+    hreadPoolExecutor.java:1149at:  Could not compute the year of the last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\java\org\apache\ibatis\annotations\package-info.java
+ (t    Thread.java:748)
+java.lang.Th java.util.concurrent.Executors$RunnableAdapter.call)
+    atAbstractLicenseMojo.java:398)
+    t java.lang.Thread.run( Document.java:85)
+    at    com.mycila.maven.plugin.license.AbstractLicenseMojo$2.runat com.mycila.maven.plugi(Thread.jat java.util.concurrent.Exeat (Executoread.runat java.util.concurrent.Executors$RunnableAdapter.call  (Executors.java:511)
+ (Thrs.java:511)
+     java.util.concurrent.ThreadPoolExecutor$Worker.runc (ThreadPoolExecutor.java:624)
+    at java.util.concurrent.Executors$RunnableAdapter.calla [n aWARNING] failure occured while calling class com.mycila.mv uar caven.plugin.license.git.CopyrightRangeProvider
+oetjajava.lang.RuntimeException: va.lang.Thread.run.license.AbstractLicenseMojo$2.run(Executors.java:511)
+    (t java.util.concurrent.FutureTask.runa:748)
+tors$RunnableAdapter.calla (   m.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalPropertiesa (CopyrightRangeProvider.java:95)
+    atExecutors.java:511)
+    d.java:748)
+ ( comAbstractLicenseMojo.java:398)
+    at ( (CouTAbstractLicenseMojo.java:398)
+     java.util.concurrent.FutureTask.runat.mycila.maven.plugin.license.document.Document.mergePropertiesFut[a tWARNING] failure   ahl occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+drt(jjavcou[[(F e WARNIramtaNG] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+. jjavunot computava.util.concurrent.FutureTask.runeT (va.lang.RuntimeException.mycila.maven.plugin.license.AbstractLicenseMojo$1.loadutil.concurrent.Executors$RunnableAdapter.call: (Executors.java:511)
+    FutureTask.java:266)
+    ask.java:266)
+    e the year of the last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\java\org\apache\ibatis\annotations\Param.javam java.util.concurrent.FutureTask.runtureTask.java:266)
+    Data.lang.RuntimeExceptionjava.util.concurrent.Executors$RunnableAdapter.callad.java:748)
+:  Could not compute the year of the last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybocument.atis-3.5.1\src\main\java\org\apache\ibatis\annotations\Property.java (
+atata      Cat com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalPropertiest java.util.concurrent.ThreadPoolExecutor.runWorker j (FutureTask.java:266
+java:97)
+    java.util.concurrent.Executors$RunnableAdapter.call ( (at    )
+    ThreadPoolExecutor.java:1149)
+    ava.util.concurrent.Executors$RunnableAdapter.call ( java.util.concurrent.FutureTask.runould not compute the year of the last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\java\org\apache\ibatis\annotations\Result.java
+( (CopyrightRangeProvider.java:95)
+     (atatat com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAExecutors.java:511)Exec
+    dditionalProperties com.mycila.maven.plugin.license.header.Header.isMatchForText j ( java.util.concurrent.ThreadPoolExecutor$Worker.runExecutors.java:511)
+    atFutureTask.java:266)
+        AbstractLicenseMojo.java:360)
+    atat com.mycila.maven.plugin.license.AbstractLicenseMojo$1.loadat (Header.java:180ava.ut (atutors.java:511)
+     java.util.concurrent.FutureTask.runC (FutureTask.java:266il.concurrent.ThreadPoolExecutor.runWorker) (ThreadPoolExecutor.java:1149)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.runThreadPoolExecutor.java:624)
+     java.util.concurrent.FutureTask.run ( java.util.concurrent.Executors$RunnableAdapter.call  (Executors.java:511)
+    at java.util.concurrent.FutureTask.runat (com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalPropertiesA (CopyrightRangeProvider.java:95)
+     (FutureTask.java:266)
+    at (
+    )
+    opyrightRangeatProvider.java:95)
+    atatThreadPoolExecutor.java:624)
+     java.lang.Thread.runatatbstractLicenseMojo.java:360)
+    FutureTask.java:266) com.mycila.maven.plugin.license.document.Document.mergeProperties
+    at com.mycila.maven.plugin.license.AbstractLicenseMojo$1.load java.util.concurrent.ThreadPoo (Thread.java:748)
+at java.lang.Thr com. java.util.concurrent.ThreadPoolExecutor.runWorkerat java.util.concurrent.FutureTask.run com.mycila.maven.plugin.license.AbstractLicenseMojo$1.load (mycila.maven.plugin.license.document.Document.hasHeaderead.runCaused by: java.lang.IllegalArgumentException: l 
+x3 com.mycila.maven.plugin.license.document.Document.mergePropertiesa (Document.java:97 ()
+    t1mOne of setGitDir or setWorkTree must be called.
+(AbstractLicenseMojo.java:360)
+    ecutor.runWorker  (ThreadPoolExecutor.java:1149)
+    at (ThreadPoolExecutor.java:1149)
+     ( (AbstractLicenseMojo.java:360)
+    atDocument.java:85)
+     java.util.concurrent.ThreadPoolExecutor$Worker.run( (ThreadPoolExecutor.java:624)
+    at     java.util.concurrent.ThreadPoolExecutor.runWorkeratDocument.java:97 com.mycila.maven.plugin.license.header.Header.isMatchForText (at com.mycila.maven.plugin.license.document.Document.mergePropertiesa (Document.java:97)
+    Thread.java:748at com.mycila.maven.plugin.license.AbstractLicenseMojo$2.run  (AbstractLicenseMojo.java:398)
+    atFutureTask.java:266)
+     com.mycila.maven.plugin.license.document.Document.mergePropertiesa (java.util.concurrent.ThreadPoolExecutor$Worker.)
+att java.lang T )[ CrDtaINFO] Updating license header in: D:/companyProject/workSpacce/mybatisChen/mybatis-3-mybatis-3.5.1/mybatis-3-mybatis-3.5.1/1.txt
+tounh.Thread.run java.util.concurrent.Executors$RunnableAdapter.callr ( (
+    org.eclipse.jgit.l(cac [WARNING] failuraTEe e occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+(ahreausjava.lang.RuntimeException[1mHeader.java:180)
+    ib.BaseRepositoryBuilder.requireGitDirOrWorkTreee (BaseRepositoryBuilder.java:586)
+    at org.eclipse.jgit.lib.BaseRepositoryBuilder.setup (BaseRepositoryBuilder.java:554)
+    om.mycila.maven.plugin.license.header.Header.isMatchForTextdPoolExecutor.javaument.java:97)
+    java.util.concurrent.Executors$RunnableAdapter.callt dPoolExecutor.java:1149)
+    xecutors.java:511)
+    Thread.java:748)atat com.mycila.maven.plugin.license.header.Header.isMatchForText( (Header.java:180)
+    at:624)
+     (atd by: java.lang.IllegalArgumentExceptionat:  Could not compute the y:  One of setGitDir or setWorkTree must be called.
+Header.java:180)
+    atat com.mycila.maven.plugin.license.header.Header.isMatchForTexta (Header.java:180)
+    at com.mycila.maven.plugin.license.document.Document.hasHeaderExecutors.java:511)
+     java.util.concurrent.ThreadPoolExecutor$Worker.run  (ThreadPoolExecutor.java:624)
+    
+atjava.util.concurrent.FutureTask.runa ( (t com.mycila.maven.plugin.license.document.Document.hasHeader  ( com.mycila.maven.plugin.license.document.Document.hasHeader    org.eclipse.jgit.storage.file.FileRepositoryBuilder.buildear of the last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5com.mycila.maven.plugin.license.document.Document.hasHeader.1\1.txt (FileRepositoryBuilder.java:92)
+    at (Document.java:85)
+    java.lang.Thread.runDocument.java:85)
+FutureTask.java:266)
+    t java.util.concurrent.FutureTask.run java.lang.Thread.runCaused by: java.lang.IllegalArgumentException (at     (Thread.java:748)
+atDocument.java:85)
+     org.eclipse.jgit.lib.BaseRepositoryBuilder.requireGitDirOrWorkTreeat
+ (Document.java:85)
+    at com.mycila.maven.plugin.license.git.GitLookup.<init>  (at com.mycila.maven.plugin.license.AbstractLicenseMojo$2.runC (at java.util.concurrent.Executors$RunnableAdapter.callFutureTask.java:266)
+    :  One of setGitDir or setWorkTree must be called.at (Executors.java:511)
+     com.mycila.maven.plugin.license.AbstractLicenseMojo$2.runAbstractLicenseMojo.java:398)
+    aused by: java.lang.IllegalArgumentException:  One of setGitDir or setWorkTree must be called.
+GitLookup.java    (BaseRepositoryBuilder.java:586)
+     com.mycila.maven.plugin.license.AbstractLicenseMojo$2.run    (AbstractLicenseMojo.java:398)
+    at java.util.conat org.eclipse.jgit.lib.BaseRepositoryBuilder.setupat (:75)
+    com.mycila.maven.plugin.license.AbstractLicenseMojo$2.runa ( (at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1149)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run(Thread.java:748)
+ (
+ java.util.concurAbstractLiAbstractLicenseMojo.java:398)
+    tatBaseRepositoryBuilder.java:554)
+     org.eclipse.jgit.lib.BaseRepositoryBuilder.requireGitDirOrWorkTreec (BaseRepositoryBuilder.java:586)
+     urrent.Executors$RunnableAdapter.callat com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getGitLookup  (atcenseMojo.java:398)rent.FutureTask.run    ThreadPoolExecutor.java:624)
+    Caused by: java.lang.IllegalArgumentException: aOne of setGitDir or setWorkTree must be called.
+at (
+     CopyrightRangeProvider.java:138)
+    java.util.concurrent.Executors$RunnableAdapter.call  ( (atat org.eclipse.jgit.lib.BaseRepositoryBuilder.setupE (BaseRepositoryBuilder.java:554)
+    Executors.java:511)
+    org.eclipse.jgit.storage.file.FileRepositoryBuilder.builda (FileRepositoryBuilder.java:92)
+    at com.mycila.mavatjava.util.concurrent.Executors$RunnableAdapter.call  (FutureTask.java:266)
+     org.eclipse.jgit.lib.BaseRepositoryBuilder.requireGitDirOrWorkTreet  java.lang.Thread.runatExecutors.java:511)
+        org.eclipse.jgit.lib.BaseRepositoryBuilder.requireGitDirOrWorkTreee (tatatxecutors.java:511)
+     com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalPropertiesa ( org.eclipse.jgit.storage.file.FileReposi java.util.concurrent.FutureTask.run  (BaseRepositoryBuilder.java:586)
+    n.plugin.license.git.GitLooatat java.util.concurrent.ThreadPoolExecutor.runWorker ((Thread.java:748)
+ ( java.util.concurrent.FutureTask.run  (FutureTask.java:266kup.<init>a (GitLookup.java:75)
+    at com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getGitLookupF (CopyrightRangeProvider.java:138)
+    com.myctoryBuilder.buildCopyrightRangeProvt java.util.concurrent.FutureTask.runi (FutureTask.java:266)
+     (ila.maveatutureTask.java:266)
+    t)
+    java.util.concurrent.Executors$RunnableAdapter.callThreadPoolExecutor.java:1149)
+    atCaused by: java.lang.IllegalArgumentExceptionBaseRepositoryBuilder.java:586):  jaOne of setGitDir or setWorkTree must be called.
+ (at org.eclipse.jgit.lib.BaseRepositoryBuilder.setupa (BaseRepositoryBuilder.java:554)
+     com.mycila.mavn.plFileRepositoryBuilder.java:92)
+    at java.util.concurrent.Executors$RunnableAdapter.callder.java:95atugin.license.git.CopyrightRangeProvider.getAdditionalPropertiese (at org.eclit java.util.concurrent.Executors$RunnableAdapter.call     java.util.concurrent.Executors$RunnableAdapter.callExecutors.java:511)
+    va.util.concurrent.ThreadPoolExecutor$Worker.run (at (at (Executors.java:511)
+    pse.jCopyrightRangeProvider.java:84)
+    n.plugin.license.git.CopyrightRangeProvider.getA com.mycila.maven.plugin.license.git.GitLookup.<init>) ( (GitLookup.java:75)
+    
+    dditionalPropertiesa (git.storage.file.FileRepositoryBuilder.builda ( org.eclipse.jgit.lib.BaseRepositoryBuilder.requireGitDirOrWorkTreeE (BaseRepositoryBuilder.java:586 java.util.concurrent.FutureTask.runT (
+    FutureTask.java:266)
+    hreadPoolExecutor.java:624)
+)
+    xecutors.java:511)
+    FileRepositoryBuilder.java:92)
+    tCopyrightRangeProvider.java:84)
+    t com.mycila.maven.plugin.license.AbstractLicenseMojo$1.loada (AbstractLicenseMojo.java:360)
+    atExecutors.java:511)
+    at com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getGitLookupa (CopyrightRangeProvider.java:138)
+    attat java.util.concurrent.FutureTask.runa (FutureTask.java:266)
+    at java.util.concurrent.atat    atat java.util.concurrent.Executors$RunnableAdapter.calla ( org.eclipse.jgit.lib.BaseRepositoryBuilder.setup  (BaseRepositoryBuilder.java:554)
+    ThreadPoolExecutor.runWorkert  com.mycila.maven.plugin.license.git.GitLookup.<init> com.mycila.maven.plugin.license.AbstractLicenseMojo$1.load  ( com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalPropertiest (CopyrightRangeProvider.java:84 java.util.concurrent.FutureTask.run) ( com.mycila.maven.plugin.license.document.Document.mergePropertiesAbstractLicenseMojo.java:360)
+    com.mycila.maven.plugin.license.AbstractLicenseMojo$1.load  ((ThreadPoolExecutor.java:1149)
+    atatjava.util.concurrent.FutureTask.runE (FutureTask.java:266)
+    t java.lang.Thread.run  (atxecutors.java:511)
+     org.eclipse.jgit.storage.file.FileRepositoryBuilder.build java.u (AbstractLicenseMojo.java:360)
+    (GitLookup.java:75)
+    at (FutureTask.java:266)
+    
+    atDocument.java:97)
+     com.mycila.maven.plugin.license.document.Document.mergePropertiesa (atFileRepositoryBuilder.java:92)
+    til.concurrent.ThreadPoolExecutor$Worker.runat java.util.concurrent.ThreadPoolExecutor.runWorkerThread.java:748)
+org.eclipse.jgit.lib.BaseRepositoryBuilder.setupCaus (BaseRepositoryBuilder.java:554)
+     ( java.util.concurren (at com.mycila.maven.plugin.license.document.Document.mergePropertiesDocument.java:97)
+    tat java.util.concurrent.ThreadPoolExecutor.runWorkera ( com.mycila.maven.plugin.license.header.Header.isMatchForText c (Header.java:180)
+    at ( com.mycila.maven.plugin.license.git.GitLookup.<init>ThreadPoolExecutor.java:624t.FutureTask.runThreadPoolExecutor.java:1149)
+ated by org.eclipse.jgit.storage.file.FileRepositoryBuilder.build  ( (FutureTask.java:266)
+    )
+     (GitLookup.java:75)
+    Document.java:97)
+    at com.mycila.maven.plugin.license.document.Document.updateHeader com.mycila.maven.plugin.license.header.atom.mycila.maven.plugin.license.git.CopyrightRangeProvider.getGitLookupThreadPoolExecutor.java:1149t)
+     ( com.mycila.maven.plugin.license.document.Document.hasHeaderHeader.isMatchForText  (Header.java:180)atatatFileRepositoryBuilder.java:92   at: java.lang.IllegalArgumentException:  java.util.)
+     java.util. java.lang.Thread.run c (Thread.java:748)
+Ca
+    (Documat com.myc (Document.java:85)
+    CopyrightRangeProvider.java:138)
+    at com.mycila.maven.plugin.license.AbstractLicenseMojo$1.load java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:624)
+    ata com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalProperties (CopyrightRangeProvider.java:84)ila.maven.plugin.license.document.Document.hasHeaderent.java:93)
+    used by: java.lang.IllegalArgumentException: oOne of setGitDir or setWorkTree must be called.concurrent.Thratconcurrent.ThreadPoolExecutor$Worker.runOn ( com.mycila.maven.plugin.license.git.GitLookup.<init>eadPoolExecutor.runWorker (m.mycila.maven.plugin.license.git.CopyrightRangeProvider.getGitLookupat (
+tat ( java.lang.Thread.run  (Thread.java:748 Doc com.mycila.maven.plugin.license.LicenseFormatMojo$1.onHeaderNotFound (CopyrightRangeProvider.java:138T)
+ (ThreadPoolExecutor.java:624)
+    e of setGitDir or setWorkTree must be called.
+at    GitLookup.java:75)
+    
+    hreadPoolExecutor.java:1149)
+     (ument.java:85)
+    )
+   com.mycila.maven.plugin.license.AbstractLicenseMojo$2.runAbstractLicenseMojo.java:360)atCaused by: java.langatLicenseFormatMojo.java:52)
+    atatat com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getGitLookupat (CopyrightRangeProvider.java:138)
+         java.lang.Thread.runatat org. com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalProperties java.util.concurrent.ThreadPoolExecutor$Worker.runa ( com.mycila.maven.plugin.license.AbstractLicenseMojo$2.run.IllegalArgumentException:  One of setGitDir or setWorkTree must be called.
+
+     (at    com.mycila.maven.plugin.license.AbstractLicenseMojo$1.load (AbstractLicenseMojo.java:398Threadt com.mycila.maven.plug (eclipse.jgit.lib.BaseRepositoryBuilder.requireGitDirOrWorkTr com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalProperties o ( (CopyrightRangeProvider.java:84)
+    rg.eclipse.jgit.lib.BaseRepositoryBuilder.requireGitDirOrWorkTreeee ( (BaseReposiCopyrightRangeProvider.java:84)
+    in.license.AbstractLicenseMojo$2.runPoolExecutor.java:624))
+     (a AbstraAbstractLicenseMojo.java:398)
+    cttat java.util.concurrent.Executcom.mycat java.util.concurrent.Executors$
+     atattoryBuilder.java:586)
+    BaseRepositoryBuilder.java:586)
+   at com.mycila.maven.plugin.license.AbstractLicenseMojo$1.loadThread.java:748)
+ ( at com.mycila.maven.plugin.license.AbstractLicenseMojo$1.load java.lang.Thread.run( (RunnableAdapter.calli (Executors.java:511ors$RunnableAdapter.call  (LicenseMojo.java:360)
+    Executors.java:511)
+    org.eclipse.jgit.lib.BaseRepositoryBuilder.requireGitDirOrWorkTree) (BaseRepositoryBuilder.java:586)
+    la.maven.plugin.license.document.Document.mergePropertiesThread.java:748)
+AbstractLicenseMojo.java:409)
+     ( org.eclipse.jgit.lib.BaseRepositoryBuilder.satAbstractLicenseMojo.java:360)
+    Caused byat org.eclipse.jgit.lib.BaseRepositoryBuilder.setupet (AbstractLicenseMojo.java:360)
+    at java.util.concurrent.Executors$RunnableAdapter.callC ( (at
+atat java.util.concurrent.FutureTask.run   (FutureTask.java:266)
+     org.eclipse.jgit.lib.BaseRepositoryBuilder.setupD (Executors.java:511)
+    aused by: java.lang.IllegalArgumentExceptionat com.mycila.maven.plugin.license.document.Document.mergePropertiesBaseRepo (up com.mycila.maven.plugin.license.document.Document.mergeProperties: java.lang.IllegalArgumentException (BaseRepositoryBuilder.java:554)
+    Document.java:97)
+    sitoryBuilder.java:554)
+    : aOne of setGitDir or setWorkTree must be called.
+BaseRepositoryBuilder.java:554)
+    ocument.java:97)
+    at   com.mycila.maven.plugin.license.document.Document.mergePropertiesat (Document.java:97)
+     java.util.concurrent.Executors$RunnableAdapter.callatat    tat org.eclipse.jgit.storage.file.FileRepositoryBuilder.buildatat:  (One of setGitDir or setWorkTree must be called.
+ org.eclipse.jgit.storage.file.FileRepositoryBuilder.build (FileRepositoryBuilder.java:92)
+     com.mycila.maven.plugin.license.header.Header.isMatchForText (FileRepositoryBuilder.java:92)
+     java.util.concurreat org.eclipse.jgit.storage.file.FileRepositoryBuilder.build com.mycila.maven.plugin.license.header.Header.isMatchForText  (at java.util.concurrent.FutureTask.run  (Header.java:180)
+    (Executors.java:511 ( org.eclipse.jgit.lib.BaseRepositoryBuilder.requireGitDirOrWorkTreent.FutureTask.runat  com.mycila.maven.plugin.license.git.GitLookup.<init>  (Giat    Document.java:97)at com.mycila.maven.plugin.license.git.GitLookup.<init>tLookup.java:75)
+    (( (FileRepositoryBuilder.java:92)
+    )
+    atFutureTask.java:266)
+    com.mycila.maven.plugin.license.header.Header.isMatchForTexta (Header.java:180)
+    at com.mycila.maven.plugin.license.document.Document.hasHeader com.mycila.maven.plugin.license.document.Document.hasHeaderatatBaseRepositoryBuilder.java:586)
+    FutureTask.java:266)Header.java:180)
+at ( org.eclipse.jgit.lib.BaseRepositoryBuilder.requireGitDirOrWorkTree (BaseRepositoryBuilder.java:586)GitLookup.ja com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getGitLookup    
+at com.mycila.maven.plugin.license.git.GitLookup.<init> java.util.concurrent.FutureTask.run ( (Document.java:85)
+    tat com.mycila.maven.plugin.license.AbstractLicenseMojo$2.runD ( ( ( org.eclipse.jgit.lib.BaseRepositoryBuilder.setup  (BaseRepositoryBuilder.java:554)
+    at (va:75)
+    
+    
+    atatCopyrightRangeProvider.java:138)
+     com.mycila.maven.plugin.license.document.Document.hasHeaderat org.eclipse.jgit.storage.file.FileRepositoryBuilder.build  (GitLookup.java:75FutureTask.java:266AbstractLicenseMojo.java:398)
+    ocument.java:85)
+     java.util.concurrent.Executors$Runnableatat)
+)
+    FileRepositoryBuilder.java:92   (Document.java:85)
+    at com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getGitLookup o (CopyrightRangeProvider.java:138)
+    atatrg.eclipse.jgit.lib.BaseRepositoryBuilder.setup  (at com.mycila.maven.plugin.license.AbstractLicenseMojo$2.runat)
+    at     java.util.concurrent.Executors$RunnableAdapter.call  (Executors.java:511)
+Adapter.call    com.mycila.maven.at java.util.concurrent.ThreadPoolExecutor.runWorker com.mycila.maven.plugin.license.git.Copyrighat com.mycila.maven.plugin.license.git.GitLookup.<init> j ( (AbstractLicenseMojo.java:398)
+    BaseRepositoryBuilder.java:554com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalProperties com com.mycila.maven.plugin.license.header.Header.isMatchForText.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalProperties  ()CopyrightRangeProvider.java:84)
+    atGitLookup.java:75ava.util.concurrent.Executors$RunnableAdapter.calltR ( (ThreadPoolExecutor.java:1149)
+    plugin.license.AbstractLicenseMojo$2.runat ( java.util.concurrent.FutureTask.run ( (atExecutors.jaangeProvider.getGitLookup) ( java.util.concurrent.Executors$RunnableAdapter.calla (Executors.java:511
+    (CopyrightRangeProvider.java:84)
+     (atat)
+    t com.mCopyrightRangeProvider.java:138)
+    
+va:511 java.util.concurrent.ThreadPoolExecutor$Worker.runF (ThreadPoolExecutor.java:624AbstractLicenseMojo.java:398)
+    Executors.java:511)
+    at)
+    utureTask.java:266)
+    )
+        atycila.maven.plugin.license.AbstractLicenseMojo$1.loada (AbstractLicenseMojo.java:360)
+    at org.eclipse.jgit.storage.file.FileRepositoryBuild com.mycila.maven.plugin.license.AbstractLicenseMojo$1.loadHeader.java:180)
+     (er.build com.mycila.maven.plugin.license.document.Document.mergePropertiest (Document.java:97)
+ com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalPropertiesatatatat java.util.concurrent.Executors$RunnableAdapter.calla (Executors.java:511)
+    at java.util.concurrent.FutureTask.run java.lang.Thread.run  (Thread.java:748)
+ java.util.concurrent.FutureTask.run  (FutureTask.java:266)
+     (     java.util.concurrent.FutureTask.run  (AbstractLicenseMojo.java:360)
+    atatFutureTask.java:266)
+    (FileRepositoryBuilder.java:92)
+    atCopyrightRangeProvider.java:84)
+    atcom.mycila.maven.plugin.license.git.CopyrightRangeProvider.getGitLookupjava.util.concurrent.Executors$RunnableAdapter.call  (t java.util.concurrent.FutureTask.runExecutors.java:511)
+    (FutureT[  a aa  WARNING] failure occured whia le calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+(tcom.mycila.maven.pljava.lang.RuntimeExceptionugin.license.document.Document.hasHeadera (Document.java:85)
+    (CopyrightRangeProvider.java:138)
+    java.util.concurrent.ThreadPoolExecutor.runWorkert  com.mycila.maven.plugin.license.AbstractLicenseMojo$1.loadc (AbstractLicenseMojo.java:360)
+    tt java.util.concurrent.FutureTask.runcom.mycila.maven.plugin.license.document.Document.mergePropertiesF (Document.java:97)
+     (FutureTask.ja java.util.concurrent.Executors$RunnableAdapter.call  at com.mycila.maven.plugin.license.document.Document.mergePropertiesom.mycila.maven.plugin.license.header.Header.isMatchForText( (Header.java:180)
+    at com.mycila.maven.plugin.license.document.Document.hasHeaderatatsk.java:266)
+    : aCould not compute the year of the last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\java\org\apache\ibatis\an com.m com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalProperties ThreadPoolExecutor.java:1149)
+     (Document.java:97(Executors.java:511)
+    com.mycila.maven.plugin.license.git.GitLookup.<init>va (GitLookup.java:75)
+atutureTask.java:266 com.mycila.maven.plugin.license.header.Header.isMatchForText    :266)at)
+    at(Document.java:85)
+ (ycila.maven.plugin.license.AbstractLicenseMojo$2.runnotations\ResultMap.java
+t java     (CopyrightRangeProvider.java:84)
+         java.util.concurrent.ThreadPoolExecutor$Worker.runat java.util.concurrent.FutureTask
+    at com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getGitLookup ()
+    Header.java:180)
+     (at.run com.mycila.maven.plugin.license.header.Header.isMatchForText (atatAbstractLicenseMojo.java:398)
+    at.util.concurrent.Executors$RunnableAdapter.call com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalPropertiesa ( com.mycila.maven.plugin.license.AbstractLicenseMojo$1.load com.mycila.maven.plugin.license.AbstractLicenseMojo$2.runThreadPoolExecutor.java:624)
+     ( (FutureTask.java:266) java.util.concurrent.ThreadPoolExecutor.runWorkerCopyrightRangeProvider.java:138)
+    atat java.util.concurrent.ThreadPoolExecutor.runWorker  (ThreadPoolExecutor.java:1149)
+    at (ThreadPoolExecutor.java:1149)
+    
+Header.java:180)
+    at (AbstractLicenseMojo.java:398)
+     (CopyrightRangeProvider.java:95t java.util.concurrent.Executors$RunnableAdapter.call ( (Executors.java:511)
+    AbstractLicenseMojo.java:360)
+    at java.lang.Thread.runat    at com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalPropertiesatcom.mycila.maven.plugin.license.document.Document.hasHeader  ( (CopyrightRangeProvider.java:84)
+     java.util.concurrent.ThreadPoolExecutor$Worker.runa ( ( com.mycila.maven.plugin.license.document.Document.hasHeader java.util.concurrent.Executors$RunnableAdapter.calla (Executors.java:511)
+at com.mycila.maven.plugin.license.AbstractLicenseMojo$1.load)
+    Executors.java:511)
+    at (AbstractLicenseMojo.java:360)
+        t com.mycila.maven.plugin.license.document.Document.mergeProperties (Thread.java:748)
+ThreadPoolExecutor.java:624)
+    t java.util.concurrent.ThreadPoolExecutor.runWorkera (Document.java:85)
+    java.util.concurrent.ThreadPoolExecutor$Worker.runatThreadPoolExecutor.java:1149)
+    tatCaused by: java.lang.IllegalArgumentExceptionDocument.java:85)
+     (at java.util.concurrent.FutureTask.runat java.util.concurrent.FutureTask.runat (Futu com.mycila.maven.plugin.license.document (FutureTask.java:266Document.java:97at:  One of setGitDir or setWorkTree must be called. com.mycila.maven.plugin.license.AbstractLicenseMojo$1.loadat ( com.mycila.maven.plugin.license.AbstractLicenseMojo$2.runThreadPoolExecutor.java:624)
+     java.util.concurrent.ThreadPoolExecutor$Worker.run (
+java.lang.Thread.run ( com.mycila.maven.plugin.license.AbstractLicenseMojo$2.run)
+    )
+    .Document.mergePropertiesr (Document.java:97)
+     java.util.concurrent.FutureTask.runa (eTask.java:266)
+    atat (Thread.java:748)
+    AbstractLicenseMojo.java:360)
+     (ThreadPoolExecutor.java:624)
+    atat java.lang.Thread.run  (Thread.java:748)
+ java.lang.Thread.runa (at org.eclipse.jgit.lib.BaseRepAbstractLicenseMojo.java:398)
+     com.mycila.maven.plug[ aFtINaoTt(FO] Updating license header in: D:/companyProject/workSpacce/mybatisChen/mybatis-3-mybatis-3.5.1/mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/annotations/One.java
+[INFO] Updating license header in: D:/companyProject/workSpacce/mybatisChen/mybatis-3-mybatis-3.5.1/mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/annotations/Lang.java
+Abhtu  coinrss[cmjtWARNING] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+tum .ti.r1[termoja WARNING] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+javm.myoeTask.java:266)
+    java.lang.RuntimeExceptionatlicense.headryBuilder.requireGitDirOrWorkTreecila.maven.plugin.license.document.Document.mergePropertiesmjava.lang.RuntimeExceptionad.java:748)
+actLicenseMojo.java:398)
+    ycila.maven.plugin.license.header.Header.isMatchForTexta.util.concurrent.Executors$RunnableAdapter.callava.util.concurrent.Executors$RunnableAdapter.callv (Executors.java:511)
+    at java.util.concurrent.FutureTask.run ( (at java.util.concurrent.Executors$RunnableAdapter.call: ( ( (BaseRepositoryBuilder[INFO] Update :ing license heDE HE aader in: D:/companyProject/workSpacce/mybatisChen/mybatis-3-mybatis-3.5.1/mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/annotations/Mapper.java
+.uxeCould not compute the year of the last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\java\org\apache\ibatis\annotations\One.java
+(FutureTask.jav.java:586)r.Header.isMatchForTextjava.util.concurrent.ThreadPoolExe[ oxaetWARNIN a G] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+   
+  de.java:180)
+    java.lang.RuntimeExceptionat1mCould not compute the year of the last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\java\org\apache\ibatis\annotations\Lang.java
+cutor.runWorkercument.java:97)
+    ecutors.java:511  cutors.java:511)il.concurrent.Executors$RunnableAdapter.call( (at com.mycila.maven.plugin.lice:nse.git.CopyrightRangeProvider.getAdditionalPropertiesExecutors.javaHeader.java:180)
+    
+at)
+    at (     com.mycila.maven.plugin.license.document.Document.hasHeader:  (Could not compute the year of the last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\java\org\apache\ibatis\annotations\MapatThreadPoolExecutor.java:1149)
+ com.mycila.maven.plugin.license.header.Header.isMatchForTextat ( org.eclipse.jgit.lib.BaseRepositoryBuilder.setup    at:511)
+     (CopyrightRangeProvider.java:95)
+    266)
+    atat com.mycila.maven.plugin.license.document.Document.hasHeadera (Document.java:85)
+     (Header.java:180)
+     java.util.concurrent.FutureTask.run    at com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalPropertiesp (CopyrightRangeProvider.java:95)
+    Document.java:85)
+    ater.java java.util.concurrent.ThreadPoolExecutor$Worker.run  (ThreadPoolExecutor.java:624)
+    atBaseRepositoryBuilder.java:554)
+    att java.util.concurrent.FutureTask.run  (FutureTask.java:266)
+    atatcom.mycila.maven.plugin.license.AbstractLicenseMojo$1.load  (AbstractLicenseMojo.java:360)
+     com.mycila.maven.plugin.license.AbstractLicenseMojo$2.runat org.ecli com.mycila.maven.plugin.license.document.Document.hasHeadera (Document.java:85)
+(FutureTask.java:266)
+    at
+ com.mycila.maven.plugin.license.AbstractLicenseMojo$1.loada (AbstractLicenseMojo.java:360)
+         java.util.concurrent.Executors$RunnableAdapter.call  (t java.lang.Thread.runpse.jgit.storage.file.FileRepositoryBuilder.build  (FileRepositoryBuilder.java:92)
+    atjava.util.concurrent.FutureTask.run  ( java.util.concurrent.ThreadPoolExecutor.runWorkerF (ThreadPoolExecutor.java:1149)
+    java.util.concurrent.ThreadPoolExecutor.runWorker  (at( AbstractLicenseMojo.java:398)
+    Executors.java:511)
+       atatt com.mycila.maven.plugin.license.document.Document.mergeProperties  (Document.java:97)
+    atatatat(Thread.java:748)
+ com.mycila.maven.plugin.license.git.GitLookup.<init>T (GitLookup.java:75)
+    com.mycila.maven.plugin.license.document.Document.mergatutureTask.java: java.util.concurrent.ThreadPoolExecutor$Worker.runePropertiesa (hreadPoolExecutor.java:1149 java.util.concurrent.Executors$RunnableAdapter.call   c [)Dt 2INFO] Updating license header in: D:/companyProject/workSpacce/mybatisChen/mybatis-3-mybatis-3.5.1/mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/annotations/MapKey.java
+66)
+omjava.util.concurrent.FutureTask.run( (Executors.java:511)
+    .mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalPropertiescoc co [aT WARNING] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+(1tcoom.mycila.maven.plugin.license.AbstractLicenseMojo$2.runre (AbstractLicenseMoFutureTask.java:266)jo.java:398)
+    adPoolExecutor.java:624)
+     (Copyrighm.tRangeProvider.java:95m.mycila.maven.plugin.license.Abstract   ument.java:97
+     at java.util.concurrejava.util.concurrent.FutureTask.runcom.myc (mjava.lang.RuntimeEFutureTask.java:266)
+    ila.maven.plugin.license.git.CopyrightRangeProvider.getGitLookupnt ()at java.util.concurrent.Executors$RunnableAdapter.call (Executors.java:511)
+LicenseMojo$2.run)
+    mycila.maven.plugin.license.document.Document.updateHeadera (at
+     java.util.concurrent.Executors$RunnableAdapter.call (Document.java:93tat (    
+    CopyrightRangeProvider.java:138)
+.ThreadPoolExecutor$Worker.runatxception java.util.concurrent.Executors$RunnableAdapter.call (    atatAbstractLicenseMojo.java:398) com.mycila.maven.plugin.license.AbstractLicenseMojo$1.load java.lang.Threa)
+    Executors.java:511)
+    atatatd.run  (
+     java.util.concurrent.FutureTask.run  (atThreadPoolExecutor.java:624)
+     (: ECould not compute the year of the last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\java\org\apache\ibatis\annotations\MapKey.javaat com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalPropertiesFutureTask.java:266)
+    com.mycila.maven.plugin.license.document.Document.updateHeaderatThread.java:748( com.mycila.maven.plugin.license.LicenseFormatMojo$1.onHeaderNotFound java.util.concurrent.Future java.util.concurrent.ThreadPoolExecutor.runWorkerT (ThreadPoolExecutor.java:1149)
+     (LicenseFormatMojo.java:52)
+    AbstractLicenseMojo.java:360)
+ java.util.concurrent.Executors$RunnableAdapter.call  (at java.util.concurrent.ThreadPoolExecutor.runWorker (CopyrightRangeProvider.java:84)
+     java.lang.Thread.run
+xecutors.java:511)
+ (Thread.java:748)
+at (ThreadPoolExecutor.java:1149)Executors.java:511)
+    (Document.java:93)
+)
+    at com.mycila.maven.plugin.l[aaINFO] Updating licena a   se header in: D:/companyProject/workSpacce/mybatisChen/mybatis-3-mybatis-3.5.1/mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/annotations/Many.java
+[INFO] Updating license header in: D:/companyProject/workSpacce/mybatisChen/mybatis-3-mybatis-3.5.1/mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/annotations/package-info.java
+ c
+ st [ik t to WARNING] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+  j   m java.util.concurrent.Threj[.a c.  aaWARNING] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+tjcaense.AbstractLicenseMojo$2.runva. (AbstractLicenseMojo.java:409)
+     com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalPropertiesa (util.concurrenadPoolExecutor$Worker.runa (mycila.maven.plugin.license.AbstractLicenseMojo$1.loadt (AbstractLicenseMojo.java:360) t java.util.concurrent.ThreadPoolExecutor$Worker.runrunom.mycila.maven.plugin.license.document.Document.mergePropertiesa ( ( (at
+     com.mycila.maven.plugin.license.LicenseFormatMojo$1.onHeaderNotFoundT (LicenseFormatMojo.java:52va.lang.RuntimeExceptiont.FutureTask.runCopyrightRangeProvider.java:95)
+    tat (FutureTask.java:266): )Could not compute the year of the last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatihreadPoolExecutor.java:6at2 com.mycila.maven.plugin.license.document.Document.mergeProperties java.utiThreadPoolExecutor.java:624)
+    FutureTask.java:266)
+    Document.java:97)
+    va.lang.RuntimeExceptionatatatl.concurrent.FutureTask.run (FutureTask.java:266)
+     (Document.java:97)
+    4)
+    s-3.5.1\mybatis-3-myb
+atis-3.5.1\src\main\java\org\apache\ibatis\annotations\Many.java
+
+       com.mycila.maven.plugin.license.AbstractLicenseMojo$1.load java.util.concurrent.Executors$RunnableAdapter.callat      atatat java.lang.Thread.run java.util.concurrent.Executors$RunnableAdapter.call  (Executors.java:511)
+    at java.util.concurrent.FutureTask.run:  Could not compute the year of the last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\java\org\apache\ibatis\annotations\package-info.java
+com.my     (Thread.java:748)
+ java.util.concurrent.ThreadPoolExecutor.runWorker com.mycila.maven.plugin.license.document.Document.updateHeader  (Document.java:93)
+    atat com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalProperties ( (Executors.java:511)
+     ( java.util.concurrent.Executors$RunnableAdapter.call com.mycila.maven.plugin.license.AbstractLicenseMojo$2.runatjava.lang.Thread.run  (Thread.java:748)
+atcila.maven.plugin.license.document.Document.updateHeader( (Do (   CaA[FINFO] Updating license header in: D:/companyProject/workSpacce/mybatisChen/mybatis-3-mybatis-3.5.1/mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/annotations/Param.java
+utuop([bINFOcy(rt] Updating license header in: D:/companyProject/workSpacce/mybatisChen/mybatis-3-mybatis-3.5.1/mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/annotations/Options.java
+Th[cWARNINGc] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+[eExecuur[1mAbstractLice1[emot[soTrWARNING] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+igtmadPoolExecutor.java:1149)
+    jaatask.j java.util.concurrent.ThreadPoolExecutor$Worker.runva.l (nseMojo.java:409)
+    .mycila.maven.plugin.license.git.CopyrightRangeProvider.;31mjava.lang.RuntimeExceptionent.java:93)
+    ractLicenseMojo.java:360)
+    ors.java:511)m java.util.concurrent.FutureTask.run (FutureTaskhtRangeProvider.java:95)
+    m.mycila.maven.plugin.license.LicenseFormatMojo$1.onHeaderNotFoundat com.mycila.maven.plugin.license.AbstractLicenseMojo$1.load.java:266
+atat com.mycila.maven.plugin.license.LicenseFormatMojo$1.onHeaderNotFound: gCould not compute the year of the last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\java\org\apache\ibatis\annotations\Param.javaatThreadPoolExecutor.java:624)
+    ang.RuntimeExceptionava:266)
+    : aCould not compute the year of the last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\java\org\apache\ibatis\annotations\Options.java java.util.concurrent.Executors$RunnableAdapter.call
+ (etAdditionalProperties (  (    )
+     (AbstractLicenseMojo.java:360)
+     (atatatCopyrightRangcom.mycila.maven.plugin.license.document.Document.mergePropertiesL (    Executors.java:511)
+    
+t java.lang.Thread.runat    atat com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalPropertiesDo (icenseFormatMojo.java:52)eProvider.java:95)
+     java.util.concurrent.FutureTask.run java.util.concurrent.Executors$RunnableAdapter.call  (Executors.java:511LicenseFormatMojo.java:52)
+    )
+    com.mycila.maven.plugin.license.document.Document.mergeProperties  (at
+    CopyrightRangeProvider.java:95)
+    cument.java:97)
+     java.util.concurrent.FutureTask.runat (Thread.java:748)
+ java.util.concurrent.ThreadPoolExecutor.runWorker com.myc (atatat com.mycila.maven.plugin.license.AbstractLicenseM D(aa[  Fi INFO] Updating license header in: D:/companyProject/workSpacce/mybatisChen/mybatis-3-mybatis-3.5.1/mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/annotations/Property.java
+(luctoc[1mFutureTask.java:266ThreadPoolExecutor.java:1149)
+    )
+ument.java:97)
+    ojo$2.runcom.mycila.maven.plugin.licen[[totcaWARNIN a aG] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangeProvider
+t  (.om.mt com.mycila.maven.plugin.license.document.Document.updateHeader java.util.concurrent.ThreadPoolExecutor$Worker.runja ( ( com.mycila.maven.plugin.license.AbstractLicenseMojo$2.runse.AbstractLicenseMojo$1.loadm (AbstractLicenseMojo.java:360)
+     java.util.concurrent.FutureTask.runm.mycila.maven.plugin.license.AbstractLicenseMojo$1.loadur (maven.plugin.license.git.CopyrightRangeProvider.getAdditionalPropertiesAbstractLicenseMojo.java:409)
+     at (AbstractLicenseMojo.java:360)
+    eTask.java:266)
+     (FutureTask.java:266)
+    atycila.maven.plugin.license.document.Document.updateHeader (Document.java:93)
+    ThreadPoolExecutor.java:624)
+    va.lang.RuntimeExceptionaatAbstractLicenseMojo.java:409)
+     (Document.java:93)
+     com.mycila.maven.plugin.license.document.Document.mergePropertiesatatatCopyrightRangeProvider.java:95)
+     jat java.util.concurrent.ThreadPoolExecutor.runWorkera (at com.mycila.maven.plugin.license.document.Document.mergeProperties  ( ( java.util.concurrenatat com.mycila.maven.plugin.license.LicenseFormatMojo$1.onHeaderNotFoundt  (: LCould not compute the year of the last git commit for file D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\src\main\java\org\apache\ibatis\annotations\Property.java
+java.lang.Thre java.util.concurrent.Executors$RunnableAdapter.call com.mycila.maven.plugin.license.LicenseFormatMojo$1.onHeaderNotFoundt.ThreadPoolExecutor.runWorkerD (ThreadPoolExecutor.java:1149)
+Document.java:97java.util.concurrent.Executors$RunnableAdapter.call com.mycila.maven.plugin.license.AbstractLicenseMojo$1.loadThreadPoolExecutor.java:1149)
+    va.util.concurrent.Executors$RunnableAdapter.calla (Executors.java:511)
+    at java.util.concurrent.FutureTask.run ( ()
+        ocument.java:97)
+     ( (Executors.java:511)
+    ad.run    icenseFormatMojo.java:52)
+at (atLicenseFormatMojo.java:52atatatExecutors.java:511)
+    AbstractLicenseMojo.java:360 (FutureTask.java:266)
+    tat)
+    at com.mycila.maven.plugin.license.document.Document.updateHeader java.util.concurrent.ThreadPoolExecutor$Worker.run  (ThreadPoolExecutor.java:624)
+    )
+     java.util.Thread.java:748)
+ com.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalProperties  (CopyrightRangeProvider.java:95)
+       at com.mycila.maven.plugin.lcaac  a  [aINFO] Updating license header in: D:/companyProject/workSpacce/mybatisChen/mybatis-3-mybatis-3.5.1/mybatis-3-mybatis-3.5.1/src/main/java/org/apache/ibatis/annotations/Result.java
+tjjtaomicense.AbstractLicenseMojo$2.run com.mycil.mycila.maven.poncurrent.FutureTask.runttva.util.concurrent.ThreadPoolExecutor$Worker.run( (ThreadPoolExecutor.java[ jaWARNING] failure occured while calling class com.mycila.mD   la aven.plugin.license.git.CopyrightRangeProvider
+(j(oa:624)
+    .maven.plugin.license.AbstractLicenseMojo$1.loadatv (com.mycila.maven.plugin.license.doccument.java:93)
+va.util.concurrent.Executors$RunnableAdapter.callFutureTask.java:266)
+    java.lang.Thread.runcom.mycila.maven.plugin.license.AbstractLicenseMojo$2.runava.lang.RuntimeExceptionAbstractLicenseMojo.java:409)
+    ugin.license.document.Document.updateHeaderat:  Could not compute the year of the last git commit for file D:\company (at (    ument.Document.mergePropertiesA (a.util.concurrent.FutureTask.run  (FutureTask.java:266)
+    Document.java:97)
+    bstractLatEicenseMojo.java:360)
+     java.util.concurrent.Executors$RunnableAdapter.callT (Executors.java:511)
+    atProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-(AbstractLicenseMojo.java:409)
+     java.util.concurrent.Executors$RunnableAdapter.call (atmybatis-3.5.1\src\main\java\org\apache\ibatis\annotations\Result.java
+ java.util.concurrent.FutureTask.runha (xecutors.java:511) com.mycila.maven.plugin.license.LicenseFormatMojo$1.onHeaderNotFoundat com.mycila.maven.plugin.license.document.Document.updateHeadera (java.lang.Thread.runD (t (LicenseFormatMojo.java:52)
+    
+    FutureTask.java:266)
+    tread.java:748)
+     (Executors.java:511)
+     java.util.concurrent.Executors$RunnableAdapter.callD (atatCaused by: java.lang.IllegalArgumentException:  One of setGitDir or setWorkTree must be called.
+atat java.util.concurrent.FutureTask.runa (FutureTask.java:266)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1149)
+     java.util.concurrent.ThreadPoolExecutor.runWorkerThread.java:748ocument.java:93)
+    )
+ (att     java.util.concurrent.ThreadPoolExecutor.runWorkercom.mycila.maven.plugin.license.document.Document.mergeProperties  (Document.java:97)
+    at com.mycila.maven.plugin. java.util.concurrent.FutureTask.runE (FutureTask.java:266)
+    at java.util.concurrent.Executors$RunnableAdapter.callocument.java:93)
+     (Executors.java:511)
+    xecat java.util.concurrent.FutureTask.runlicense.document.Document.updateHeaderc ( (at org.eclipse.jgit.lib.BaseRepos com.mycila.maven.plugin.license.AbstractLicenseMojo$2.run  (AbstractLicenseMojo.java:409)
+    ThreadPoolExecutor.java:1149)
+    Caused by: java.lang.IllegalArgumentException: aOne of setGitDir or setWorkTree must be called.tatatjava.util.concurrent.ThreadPoolExecutor$Worker.runitoryBuilder.requireGitDirOrWorkTreeThreadPoolExecutor.java:1149)
+    Document.java:93)
+    om.mycila.maven.plugin.license.git.CopyrightRangeProvider.getAdditionalProperties  (CopyrightRangeProvider.java:95)
+    at com.mycila.maven.plugin.license.AbstractLicenseMojo$1.loadutors.java:511)
+    atat ((FutureTask.java:266)
+    at com.mycila.maven.pat java.util.concurrent.ThreadPoolExe (BaseRepositoryBuilder.java:586)
+     (ThreadPoolExecutor.java:624)
+    at java.lang.Thread.run j ( java.util.concurrent.ThreadPoolExecutor$Worker.run com.mycila.maven.plugin.license.LicenseFormatMojo$1.onHeaderNotFound ( (Thread.java:748ava.util.concurrent.Executors$RunnableAdapter.callat  org.eclipse.jgit.lib.BaseRepositoryBuilder.setupcutor$Worker.runl (atAbstractLicenseMojo.java:360)
+     java.util.concurrent.FutureTask.run  (com.mycila.maven.plugin.license.LicenseFormatMojo$1.onHeaderNotFoundat ( java.util.concurrent.ThreadPoolExecutor.runWorkerT (ugin.license.LicenseFormatMojo$1.onHeaderNotFound  (LicenseFormatMojo.java:52)
+    at com.mycila.maven.plugin.license.AbstractLicenseMojo$2.run(Executors.java:511)
+    )
+ThreadPoolExecutor.java:624)
+    LicenseFormatMojo.java:52)
+    
+atat ja    Caused by: java.lang.IllegalArgumentException: aOne of setGitDir or setWorkTree must be called.
+ ((ThreadPoolExecutor.java:1149)
+    hreadPoolExecutor.java:624)
+    at java.lang.Thread.runL (Thread.java:748)
+ com.mycila.maven.plugin.license.document.Document.mergePropertiesFutureTask.java:266)
+     (Document.java:97)
+    icenseFormatMojo.java:52)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run  (BaseRepositoryBuilder.java:554)
+    AbstractLicenseMojo.java:409)
+    tatva.lang.Thread.run com.mycila.maven. org.eclipse.jgit.lib.BaseRepositoryBuilder.requireGitDirOrWorkTree  (at java.uti[aT aaaWARNING] failure occured while calling class com.mycila.maven.plugin.license.git.CopyrightRangePBjp rovider
+(l[jINFOaTa] ------------------------------------------------------------------------
+tttt [ h INFO] BUILD FAILURE
+l r.c[INFO] ------------------------------------------------------------------------
+ja vseucatva.util.concurrent.Executors$RunnableAdapter.call org.eclipse.jgit.storage.file.FileReposi[ ogeoRaahcINFO] Total tim e:  9.622 s
+(om.rmincurrent.E[tno.aeemv.INFO] Finished at: 2019-07-24T15:38:38+08:00
+ut[aINFO] ------------------------------------------------------------------------
+yad.javExecutors$RunnableAdapter.callpositoryBuilder.java:586)
+    il.concurrent.FutureTask.run.l (a:748xecutors.java:511)
+    oryBuilder.build.license.AbstractLicenseMojo$2.runrg (mycila.mavdc[A. a)Faa ERROR] Failed to execute goal com.mycila:license-maven-plugin:3.0:format (default) on project mybatis: Execution default of goal com.mycila:license-maven-plugin:3.0:format failed: Cannot write new header in file D:/companyProject/workSpacce/mybatisChen/mybatis-3-mybatis-3.5.1/mybatis-3-mybatis-3.5.1/1.txt. Cause: D:\companyProject\workSpacce\mybatisChen\mybatis-3-mybatis-3.5.1\mybatis-3-mybatis-3.5.1\1.txt (��һ����������ʹ�ô��ļ��������޷����ʡ�) -> [Help 1]
+(Et[nxERROR] 
+ut[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+(F[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+e[PbERROR] 
+ie[ERROR] For more information about the errors and possible solutions, please read the following articles:
+oolExecutor.java:6clipse.jgit.lib.Base[[1;31mERROR] s[Help 1] ht
+i2tp://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException
+tureelCaused by: java.lan.plugin.license.document.Doc[m4)
+    Task.java:266)
+    g.RuntimeExceptionat java.util.concurrent.Executorsat org.eclipse.jgit.lib.BaseRepositoryBuilder.setuputors.java:511)
+    cument.updateHeaderla. (ng.IllegalArgumentException: ROne of setGitDir or setWorkTre[m java.util.concurrent.FutureTask.runtractLicenseMojo.java:409)
+    eRepositoryBuilder.java:92)
+at (e musepositoryBuilder.requireGitDirOrWorkTreeDocument.java:93)
+    maven.plugin.license.AbstractLicenseMojo$2.runat  java.util.concurrent.Futur (BaseRepositoryBuilder.java:554)
+  java.lang.Thread.run$Ru: nnableAdapter.call (   eTask.run(Absat (t be called.
+FutureTask.java:266)
+     java.util.concurrent.Executors$RunnableAdapter.call    at    BaseRepositoryBuilder.java:586)
+     com.mycila.maven.plugin.license.LicenseFormatMojo$1.onHeaderNotFoundtr (LicenseFormatMojo.java:52)
+ (atThread.java:748)
+ (Could not compute the year of the lExecutors.java:511)
+    Caused by: java.lang.IllegalArgumentException: One of setGitDi
